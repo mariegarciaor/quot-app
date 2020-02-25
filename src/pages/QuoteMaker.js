@@ -12,7 +12,7 @@ const QuoteMaker = () => {
             <div id='card-option'>
                 <div id='card-container'>
                     <div id='card-container-header'>
-                        <i className='' src={} alt='icono'></i>
+                        <i className='' alt='icono'></i>
                     </div>
 
                     <div id='card-content'>
