@@ -8,11 +8,26 @@ import Register from './pages/Register';
 import QuoteMaker from './pages/QuoteMaker';
 
 function App() {
+  const [user, setUser] = useState(null)
+
+  // Recibe la info del usuario
+  // Si esta info es correcta, lo seteo en user
+  // Este user lo obtiene los componentes que lo necesiten
+  // { user, password }
+  const handleLogin = (data) => {
+    // Si el usuario es invalido
+    if(false) {
+      return false
+    }
+
+    setUser(data)
+  }
+
   return (
     <BrowserRouter>
         <Switch>
-          <Route exact path="/" component={ Home } />
-          <Route exact path="/LogIn" component={ LogIn } />
+          <Route exact path="/" component={ () => <Home user={user} /> } />
+          <Route exact path="/LogIn" component={ () => <LogIn onLogin={handleLogin} /> } />
           <Route exact path="/Register" component={ Register } />
           <Route exact path="/QuoteMaker" component={ QuoteMaker } />
         </Switch>

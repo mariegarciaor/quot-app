@@ -21,7 +21,7 @@ const WelcomeOptions = () => {
         <div>
             <Link to="/Register" className="">Registrate</Link>
             <br/>
-            <Link to="/LogIn" className="">Inicia Sesión</Link>
+            <Link to="/WelcomeUser" className="">Inicia Sesión</Link>
             <br/>
             <Link to="/QuoteMaker" className="">Continua como invitado</Link>
         </div>
