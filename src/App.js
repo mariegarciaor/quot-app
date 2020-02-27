@@ -7,6 +7,7 @@ import LogIn from './pages/LogIn';
 import Register from './pages/Register';
 import QuoteMaker from './pages/QuoteMaker';
 
+
 function App() {
   const [user, setUser] = useState(null)
 
