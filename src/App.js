@@ -3,9 +3,10 @@ import { BrowserRouter, Switch, Route } from 'react-router-dom';
 
 
 import Home from '../src/pages/Home';
-import LogIn from './pages/LogIn';
+import LogIn from '../src/pages/LogIn';
 import Register from './pages/Register';
 import QuoteMaker from './pages/QuoteMaker';
+import ComingSoon from './pages/ComingSoon';
 
 function App() {
   return (
@@ -15,12 +16,14 @@ function App() {
           <Route exact path="/LogIn" component={ LogIn } />
           <Route exact path="/Register" component={ Register } />
           <Route exact path="/QuoteMaker" component={ QuoteMaker } />
+          <Route exact path="/ComingSoon" component={ ComingSoon } />
         </Switch>
     </BrowserRouter>
     );
   }  
 
 export default App
+
 
 /* <div className="App">
         <header className="App-header">
