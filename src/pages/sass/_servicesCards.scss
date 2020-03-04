@@ -1,10 +1,11 @@
 /* Services Cards */
-.container-fluid{
+.container{
+    width: $eighty;
     padding-bottom: $md;
     text-align: center;
     font-family: $sarabun;
     .card{
-        border: none;
+        max-width: $eighty;
         border-radius: $sm;
         margin-top: $sm;
         .card-img-top{
