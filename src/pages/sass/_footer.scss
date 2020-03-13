@@ -1,0 +1,28 @@
+/* Footer */
+footer{
+    width: $hundred;
+    height: 10rem;
+    background-color: $dark-blue;
+    font-family: $sarabun;
+    font-size: $footer;
+    font-weight: $regular;
+    color: $white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    ul{
+        list-style-type: none;
+    }
+    .social-media{
+        width: $eighty;
+        height: $md;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+        .fab{
+            font-size: $subtitle-2;
+        }
+}

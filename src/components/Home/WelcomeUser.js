@@ -1,10 +1,7 @@
-<<<<<<< Updated upstream
-=======
 import React from 'react';
 import BigLogo from '../../images/BigLogo.jpg';
 import {Link} from 'react-router-dom';
 
-// Agregar el nombre del usuario
 const UserHome  = () => {
 
     return (
@@ -28,4 +25,3 @@ const UserHomeOptions = () => {
 }
 
 export { UserHome, UserHomeOptions };
->>>>>>> Stashed changes

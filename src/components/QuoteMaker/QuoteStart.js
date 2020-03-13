@@ -1,13 +1,13 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 
 const QuoteStart = () => {
 
     return (
         <div>
-           <h5> PASO 1 </h5>
-           <h1> Escoge el sistema de impresion </h1>
+           <h4> Paso 1 </h4>
+           <h1> Escoge el archivo a imprimir </h1>
            <div>
                <Link rel="icon" type="" href="">icono prueba </Link>
                <h2> Tarjeta de presentacion </h2>
@@ -28,5 +28,4 @@ const QuoteStart = () => {
     )
     }
 
-
-export default QuoteStart
+export default QuoteStart;
