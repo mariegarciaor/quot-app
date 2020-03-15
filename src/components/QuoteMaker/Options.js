@@ -42,14 +42,14 @@ const printerSettings = {
             },
         
             {
-                name: 'Offset',
+                selection_name: 'Offset',
                 description:'Perfecto para pedidos de 1000 piezas',
                 cost: 15,
                 time:0.2
             },
         
             {
-                name: 'Serigrafia',
+                selection_name: 'Serigrafia',
                 description:'Frente de la tarjeta. Logotipo y datos completos juntos.',
                 cost: 20,
                 time: 1.2
@@ -63,14 +63,14 @@ const printerSettings = {
         title: '¿En cuántas caras las necesitas?',
         options: [   
             {
-                name: 'Una cara',
+                selection_name: 'Una cara',
                 description:'Diseño limpio, logotipo y datos en el frente de la tarjeta.',
                 cost: 20,
                 time: 0.5
             },
         
             {
-                name: 'Dos caras',
+                selection_name: 'Dos caras',
                 description:'¡Doble impacto! Logotipo en frente y datos por detrás',
                 cost: 300,
                 time: 1
@@ -84,21 +84,21 @@ const printerSettings = {
         title: '¿Cuántas tarjetas necesitas?',
         options: [
             {
-                name: 100,
+                selection_name: 100,
                 description:'piezas',
                 cost: 50,
                 time: 0.3
             },
         
             {
-                name: 500,
+                selection_name: 500,
                 description:'piezas',
                 cost: 100,
                 time: 0.3
             },
         
             {
-                name: 1000,
+                selection_name: 1000,
                 description:'piezas',
                 cost: 150,
                 time: 0.3
@@ -112,21 +112,21 @@ const printerSettings = {
         title: '¿Qué terminado te gustaría?',
         options: [ 
             {
-                name: 'Bordes redondeados',
+                selection_name: 'Bordes redondeados',
                 description:'Si buscas un diseño original este acabado ¡te encantará!',
                 cost: 15,
                 time: 0.2
             },
         
             {
-                name: 'Plastificado',
+                selection_name: 'Plastificado',
                 description:'Capa brillosa de refuerzo que brinda mayor duración.',
                 cost: 20,
                 time: 0.2
             },
         
             {
-                name: 'Barniz UV',
+                selection_name: 'Barniz UV',
                 description:'Lo mejor de los dos mundos: mate y brillo ¿te animas a probarlo?',
                 cost: 10,
                 time: 0.2
@@ -140,21 +140,21 @@ const printerSettings = {
         title: 'Ahora escoge un papel que defina tu identidad',
         options: [ 
             {
-                name: 'Couché',
+                selection_name: 'Couché',
                 description:'Papel súper suave, súper blanco y sin poros ;)',
                 cost: 30,
                 time: 0.3
             },
         
             {
-                name: 'Opalina',
+                selection_name: 'Opalina',
                 description:'Si buscar un acabado suave y moderno ¡Esta es tu opción!',
                 cost: 30,
                 time: 0.3
             },
         
             {
-                name: 'Sulfatado',
+                selection_name: 'Sulfatado',
                 description:'¡Tan brillante y duradera que no podrás escribir en ellas! O:',
                 cost: 30,
                 time:0.3
@@ -168,21 +168,21 @@ const printerSettings = {
         title: '¿Cuentas con un diseño de tus tarjetas?',
         options: [ 
             {
-                name: 'Diseño profesional',
+                selection_name: 'Diseño profesional',
                 description:'Solo archivos: .ai y .pdf de alta calidad.',
                 cost: 10,
                 time: 1
             },
         
             {
-                name: 'Idea de diseño',
+                selection_name: 'Idea de diseño',
                 description:'Aquí si entran: .ppt, .docx, .jpeg y .png',
                 cost: 200,
                 time: 2
             },
         
             {
-                name: 'No tengo diseño',
+                selection_name: 'No tengo diseño',
                 description:'¡No te preocupes! Tenemos un equipo experto que creará algo increíble para ti ;)',
                 cost: 300,
                 time: 2
