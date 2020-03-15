@@ -1,4 +1,20 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
+
+const [selected, setSelected] =useState([])
+const [totalCost, setCost] =useState(0)
+
+const useEffect =0 () => {
+    const costo = 0
+    for(const item of selected) {
+        costo += item.cost
+    };
+    setCost([costo, selected])
+
+    function handleSelected(option) {
+        setSelected([...selected, option])
+    };
+
+}
 
 const QuoteMaker = () => {
 
