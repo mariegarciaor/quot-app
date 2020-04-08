@@ -8,7 +8,7 @@ const PrintSystem = () => {
            <h1>Review Order PrintSystem</h1>
         </div>
     )
-    }
+}
 
 
 export default PrintSystem;
