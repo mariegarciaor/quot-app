@@ -1,6 +1,7 @@
 import React from 'react';
 
 import "../../pages/css/main.css";
+import { ReactComponent as Digital} from '../../images/digital.svg';
 
 const PrintSystem = () => {
 
@@ -9,7 +10,7 @@ const PrintSystem = () => {
            <div className="card mb-3">
                <div className="row no-gutters">
                    <div className="col-md-4">
-                       <img src="" className="card-img" alt="Digital Print"/>
+                       <Digital className="card-img" />
                    </div>
                    <div className="col-md-8">
                        <div className="card-body">
@@ -50,6 +51,5 @@ const PrintSystem = () => {
         </div>
     )
     }
-
 
 export default PrintSystem;
