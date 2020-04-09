@@ -1,3 +1,19 @@
+
+Funciones que tenemos que hacer:
+
+QUOTE MAKER
+1) Hacer componente de uno en uno. Tendrá su código html y diseño propio.
+2) Página QuoteMaker, irá cambiando el componente (por bloque no por texto)
+3) En cada componente - Función que identifique la selección del usuario.
+4) En la página FinalQuot se irán importando los resultados de la selección y se jalará el precio ligado a esa opción (de los objetos), hara la suma y mostrara una lista de los datos seleccionados (selection_name)
+
+
+COMPONENTES
+1) Hacer clickeables las opciones
+2) Jalar la información de la selección del usuario
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
