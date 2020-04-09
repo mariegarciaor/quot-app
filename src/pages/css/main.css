@@ -16,12 +16,13 @@
 
 /* Services Cards */
 .container {
+  width: 80%;
   padding-bottom: 2rem;
+  align-content: center;
   text-align: center;
   font-family: "Sarabun";
 }
 .container .card {
-  max-width: 80%;
   border-radius: 1rem;
   margin-top: 1rem;
 }
