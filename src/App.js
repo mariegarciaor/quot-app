@@ -2,10 +2,6 @@ import React, { useState } from 'react';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import {useState} from "react"
 
-import Home from '../src/pages/Home';
-import Register from './pages/Register';
-import QuoteMaker from './pages/QuoteMaker';
-import ComingSoon from './pages/ComingSoon';
 /*Checkout Folder*/
 import Payment from './pages/Checkout/Payment';
 import PaymentDeclined from './pages/Checkout/PaymentDeclined';
@@ -18,8 +14,6 @@ import Register from './pages/Home/Register';
 import WelcomeNew from './pages/Home/WelcomeNew';
 import WelcomeUser from './pages/Home/WelcomeUser';
 
-function App() {
-  const [user, setUser] = useState(null)
 /*Orders*/
 import MyOrders from './pages/Orders/MyOrders';
 import OrderDetails from './pages/Orders/OrderDetails';
@@ -37,7 +31,6 @@ import QuoteStart from './pages/QuotMaker/QuoteStart';
 
 import ComingSoon from './pages/ComingSoon'
 
-  // Recibe la info del usuario
 // Recibe la info del usuario
   // Si esta info es correcta, lo seteo en user
   // Este user lo obtiene los componentes que lo necesiten
@@ -58,14 +51,12 @@ function App() {
   return (
     <BrowserRouter>
         <Switch>
-          <Route exact path="/" component={ () => <Home user={user} /> } />
           <Route exact path="/payment" component={ Payment } />
           <Route exact path="/PaymentDeclined" component={ PaymentDeclined } />
           <Route exact path="/PaymentSuccess" component={ PaymentSuccess } />
           <Route exact path="/ReviewOrder" component={ ReviewOrder } />
           <Route exact path="/LogIn" component={ () => <LogIn onLogin={handleLogin} /> } />
           <Route exact path="/Register" component={ Register } />
-          <Route exact path="/QuoteMaker" component={ QuoteMaker } />
           <Route exact path="/WelcomeNew" component={ WelcomeNew } />
           <Route exact path="/WelcomeUser" component={ WelcomeUser } />
           <Route exact path="/MyOrders" component={ MyOrders } />
@@ -86,21 +77,3 @@ function App() {
   }  
 
 export default App
-
-
-/* <div className="App">
-        <header className="App-header">
-        <img src='#' className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div> */export default App
