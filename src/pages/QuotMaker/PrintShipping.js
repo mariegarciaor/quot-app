@@ -1,16 +1,14 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
 
-
-
-const ComingSoon = () => {
+const PrintShipping = () => {
 
     return (
         <div>
-           <h1>Prueba Coming Soon</h1>
+           <h1>Review Order PrintShipping</h1>
         </div>
     )
     }
 
 
-export default ComingSoon;
+export default PrintShipping;
