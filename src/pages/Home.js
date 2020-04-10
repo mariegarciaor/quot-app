@@ -1,6 +1,6 @@
 import React from 'react'
 import {Welcome, WelcomeOptions} from '../components/Home/WelcomeNew';
-import {UserHome, UserHomeOptions} from '../components/Home/WelcomeUser';
+import WelcomeUser from '../components/Home/WelcomeUser';
 
 
 const Home = ({ user }) => {
@@ -8,8 +8,7 @@ const Home = ({ user }) => {
     if (user) {
         return (
             <div className="">
-                <UserHome />
-                <UserHomeOptions />
+                <WelcomeUser />
             </div>
         )
     }

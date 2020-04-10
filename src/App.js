@@ -1,12 +1,13 @@
 import React, { useState } from 'react';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
-import {useState} from "react"
+
 
 import Home from '../src/pages/Home';
 import LogIn from '../src/pages/LogIn';
 import Register from './pages/Register';
 import QuoteMaker from './pages/QuoteMaker';
 import ComingSoon from './pages/ComingSoon';
+import WelcomeUser from '../src/components/Home/WelcomeUser';
 
 
 function App() {
@@ -32,6 +33,8 @@ function App() {
           <Route exact path="/LogIn" component={ () => <LogIn onLogin={handleLogin} /> } />
           <Route exact path="/Register" component={ Register } />
           <Route exact path="/QuoteMaker" component={ QuoteMaker } />
+          <Route exact path="/ComingSoon" component={ ComingSoon } />
+          <Route exact path="/WelcomeUser" component={ WelcomeUser} />
           <Route exact path="/ComingSoon" component={ ComingSoon } />
         </Switch>
     </BrowserRouter>

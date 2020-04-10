@@ -83,7 +83,6 @@ const PrintSystem = () => {
         <h1 className="title-1 dark-blue">Título de pregunta</h1>
       </div>
       <div className="container">
-
         <button className="card mb-3" id="Digital" onClick="userSelection()" >
           <div className="row no-gutters">
             <div className="col-md-4">
@@ -129,7 +128,6 @@ const PrintSystem = () => {
             </div>
           </div>
         </button>
-
       </div>
     </div>
   );
