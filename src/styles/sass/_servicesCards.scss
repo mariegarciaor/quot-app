@@ -2,10 +2,10 @@
 .container{
     width: $eighty;
     padding-bottom: $md;
+    align-content: center;
     text-align: center;
     font-family: $sarabun;
     .card{
-        max-width: $eighty;
         border-radius: $sm;
         margin-top: $sm;
         .card-img-top{
