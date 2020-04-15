@@ -2,21 +2,52 @@ import React, { useState } from 'react';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 
 
+<<<<<<< HEAD
+/*Checkout Folder*/
+import Payment from './pages/Checkout/Payment';
+import PaymentDeclined from './pages/Checkout/PaymentDeclined';
+import PaymentSuccess from './pages/Checkout/PaymentSuccess';
+import ReviewOrder from './pages/Checkout/ReviewOrder';
+=======
 import Home from '../src/pages/Home';
 import LogIn from '../src/pages/LogIn';
 import Register from './pages/Register';
 import QuoteMaker from './pages/QuoteMaker';
 import ComingSoon from './pages/ComingSoon';
 import WelcomeUser from '../src/components/Home/WelcomeUser';
+>>>>>>> master
 
+/*Home Folder*/
+import LogIn from './pages/Home/LogIn';
+import Register from './pages/Home/Register';
+import WelcomeNew from './pages/Home/WelcomeNew';
+import WelcomeUser from './pages/Home/WelcomeUser';
+
+/*Orders*/
+import MyOrders from './pages/Orders/MyOrders';
+import OrderDetails from './pages/Orders/OrderDetails';
+
+/*QuotMaker*/
+import PrintDesign from './pages/QuotMaker/PrintDesign';
+import PrintFinish from './pages/QuotMaker/PrintFinish';
+import PrintPaper from './pages/QuotMaker/PrintPaper';
+import PrintQuantity from './pages/QuotMaker/PrintQuantity';
+import PrintShipping from './pages/QuotMaker/PrintShipping';
+import PrintSides from './pages/QuotMaker/PrintSides';
+import PrintSystem from './pages/QuotMaker/PrintSystem';
+import PrintUploadFile from './pages/QuotMaker/PrintUploadFile';
+import QuoteStart from './pages/QuotMaker/QuoteStart';
+
+import ComingSoon from './pages/ComingSoon'
+
+// Recibe la info del usuario
+  // Si esta info es correcta, lo seteo en user
+  // Este user lo obtiene los componentes que lo necesiten
+  // { user, password }
 
 function App() {
   const [user, setUser] = useState(null)
 
-  // Recibe la info del usuario
-  // Si esta info es correcta, lo seteo en user
-  // Este user lo obtiene los componentes que lo necesiten
-  // { user, password }
   const handleLogin = (data) => {
     // Si el usuario es invalido
     if(false) {
@@ -29,10 +60,25 @@ function App() {
   return (
     <BrowserRouter>
         <Switch>
-          <Route exact path="/" component={ () => <Home user={user} /> } />
+          <Route exact path="/payment" component={ Payment } />
+          <Route exact path="/PaymentDeclined" component={ PaymentDeclined } />
+          <Route exact path="/PaymentSuccess" component={ PaymentSuccess } />
+          <Route exact path="/ReviewOrder" component={ ReviewOrder } />
           <Route exact path="/LogIn" component={ () => <LogIn onLogin={handleLogin} /> } />
           <Route exact path="/Register" component={ Register } />
-          <Route exact path="/QuoteMaker" component={ QuoteMaker } />
+          <Route exact path="/WelcomeNew" component={ WelcomeNew } />
+          <Route exact path="/WelcomeUser" component={ WelcomeUser } />
+          <Route exact path="/MyOrders" component={ MyOrders } />
+          <Route exact path="/OrderDetails" component={ OrderDetails } />
+          <Route exact path="/PrintDesign" component={ PrintDesign } />
+          <Route exact path="/PrintFinish" component={ PrintFinish } />
+          <Route exact path="/PrintPaper" component={ PrintPaper } />
+          <Route exact path="/PrintQuantity" component={ PrintQuantity } />
+          <Route exact path="/PrintShipping" component={ PrintShipping } />
+          <Route exact path="/PrintSides" component={ PrintSides } />
+          <Route exact path="/PrintSystem" component={ PrintSystem } />
+          <Route exact path="/PrintUploadFile" component={ PrintUploadFile } />
+          <Route exact path="/QuoteStart" component={ QuoteStart } />
           <Route exact path="/ComingSoon" component={ ComingSoon } />
           <Route exact path="/WelcomeUser" component={ WelcomeUser} />
           <Route exact path="/ComingSoon" component={ ComingSoon } />
@@ -42,21 +88,3 @@ function App() {
   }  
 
 export default App
-
-
-/* <div className="App">
-        <header className="App-header">
-        <img src='#' className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div> */

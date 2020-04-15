@@ -1,16 +1,15 @@
 import React from 'react';
+import './payment.scss'
 import {Link} from 'react-router-dom';
 
-
-
-const ComingSoon = () => {
+const myOrders = () => {
 
     return (
         <div>
-           <h1>Prueba Coming Soon</h1>
+           <h1>Prueba myOrders</h1>
         </div>
     )
     }
 
 
-export default ComingSoon;
+export default myOrders;

@@ -2,8 +2,7 @@ import React from 'react';
 import {Link} from 'react-router-dom';
 
 
-
-const ComingSoon = () => {
+const FinalQuot = () => {
 
     return (
         <div>
@@ -13,4 +12,4 @@ const ComingSoon = () => {
     }
 
 
-export default ComingSoon;
+export default FinalQuot;
