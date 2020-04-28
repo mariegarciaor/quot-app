@@ -1,14 +1,15 @@
-Esto es una prueba
+INSTRUCCIONES PARA TRABAJAR EN EL PROYECTO:
+*En la app de escritorio de Github: *
+1. Ir a la rama de master y hacer fetch (para que github revise si hay cambios nuevos)
+2. Antes de empezar a trabajar, siempre hacer pull del master (para traer los cambios actualizados de la rama master del reposito remoto a tu repositorio local)
+3. Ya que tienes master en tu repositorio local, Has un Merge del Master con tu branch propio (no trabajar sobre master) =>"choose a branch to merge into ...tu-rama"
+4. Trabaja en tus cambios.
+5. Al finalizar, has pull request nuevamente (esto es una buena práctica) por si alguien más hizo cambios durante el tiempo que tu trabajaste.
+6. Has commit de tus cambios nuevos.
+7. Has 
 
-Esta es la segunda prueba (subiendo desde VSC)
 
-Esta es la terca prueba (cambio de un tercero)
 
-Esta es la cuarta prueba (desde al app de escritorio github)
-
-Esta es la quinta prueba (otro tercero hizo un cambio y ahora lo queremos jalar desde la app de escritorio de github)
-
-Funciones que tenemos que hacer:
 
 QUOTE MAKER
 1) Hacer componente de uno en uno. Tendrá su código html y diseño propio.
@@ -20,6 +21,16 @@ QUOTE MAKER
 COMPONENTES
 1) Hacer clickeables las opciones
 2) Jalar la información de la selección del usuario
+
+
+
+
+
+
+
+
+
+
 
 
 
