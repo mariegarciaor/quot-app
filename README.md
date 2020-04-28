@@ -1,4 +1,4 @@
-Prueba
+Esto es una prueba 
 
 Funciones que tenemos que hacer:
 
