@@ -2,20 +2,11 @@ import React, { useState } from 'react';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 
 
-<<<<<<< HEAD
 /*Checkout Folder*/
 import Payment from './pages/Checkout/Payment';
 import PaymentDeclined from './pages/Checkout/PaymentDeclined';
 import PaymentSuccess from './pages/Checkout/PaymentSuccess';
 import ReviewOrder from './pages/Checkout/ReviewOrder';
-=======
-import Home from '../src/pages/Home';
-import LogIn from '../src/pages/LogIn';
-import Register from './pages/Register';
-import QuoteMaker from './pages/QuoteMaker';
-import ComingSoon from './pages/ComingSoon';
-import WelcomeUser from '../src/components/Home/WelcomeUser';
->>>>>>> master
 
 /*Home Folder*/
 import LogIn from './pages/Home/LogIn';
@@ -45,18 +36,20 @@ import ComingSoon from './pages/ComingSoon'
   // Este user lo obtiene los componentes que lo necesiten
   // { user, password }
 
+//User
+// const [user, setUser] = useState(null)
+
+// const handleLogin = (data) => {
+//   // Si el usuario es invalido
+//   if(false) {
+//     return false
+//   }
+
+//   setUser(data)
+// }
+
+
 function App() {
-  const [user, setUser] = useState(null)
-
-  const handleLogin = (data) => {
-    // Si el usuario es invalido
-    if(false) {
-      return false
-    }
-
-    setUser(data)
-  }
-
   return (
     <BrowserRouter>
         <Switch>
@@ -64,7 +57,7 @@ function App() {
           <Route exact path="/PaymentDeclined" component={ PaymentDeclined } />
           <Route exact path="/PaymentSuccess" component={ PaymentSuccess } />
           <Route exact path="/ReviewOrder" component={ ReviewOrder } />
-          <Route exact path="/LogIn" component={ () => <LogIn onLogin={handleLogin} /> } />
+          <Route exact path="/LogIn" component= {LogIn} />
           <Route exact path="/Register" component={ Register } />
           <Route exact path="/WelcomeNew" component={ WelcomeNew } />
           <Route exact path="/WelcomeUser" component={ WelcomeUser } />
@@ -87,4 +80,4 @@ function App() {
     );
   }  
 
-export default App
+export default App;

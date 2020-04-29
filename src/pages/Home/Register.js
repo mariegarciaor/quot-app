@@ -8,7 +8,6 @@ const Register = () => {
         <div>
              <div>
                 <h2>Registra tus datos para crear tu cuenta</h2>
-                <img src="" alt=""/>
             </div>
 
             <div>
