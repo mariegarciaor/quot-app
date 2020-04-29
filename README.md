@@ -1,26 +1,28 @@
 INSTRUCCIONES PARA TRABAJAR EN EL PROYECTO:
+
+AL INICIAR
 *En la app de escritorio de Github: *
-1. Ir a la rama de master y hacer fetch (para que github revise si hay cambios nuevos)
-2. Antes de empezar a trabajar, siempre hacer pull del master (para traer los cambios actualizados de la rama master del reposito remoto a tu repositorio local)
-3. Ya que tienes master en tu repositorio local, Has un Merge del Master con tu branch propio (no trabajar sobre master) =>"choose a branch to merge into ...tu-rama"
-4. Trabaja en tus cambios.
-5. Al finalizar, has pull request nuevamente (esto es una buena práctica) por si alguien más hizo cambios durante el tiempo que tu trabajaste.
-6. Has commit de tus cambios nuevos.
-7. Has 
+1. Ir a la rama de master y hacer fetch (para que github revise si hay cambios nuevos en master).
+2. Has pull del master (para traer los cambios actualizados del reposito remoto a tu repositorio local).
+3. Ya que tienes master en tu repositorio local, has un merge del Master a tu branch propio (no trabajar sobre master) => para hacer esto selecciona la opción: "choose a branch to merge into tu-rama" y selecciona master.
+4. Desde tu rama, abre VSC.
+
+*En Visual Studio Code: *
+5. Trabaja en tus cambios.
+
+AL TERMINAR
+*En la app de escritorio de Github: *
+6. Al finalizar, has fetch y pull request de master nuevamente (esto es una buena práctica) por si alguien más hizo cambios durante el tiempo que tu trabajaste. (Si hubiera cambios, hacer merge de master a tu branch nuevamente antes de subir tus cambios).
+7. Regresa a tu branch y has commit de tus cambios nuevos (estarán en stashed, da click en restore).
+8. Has push origin.
+
+*En la página web de Github: *
+9. En la ruta: code > branches > tu-branch (debería aparecer un update).
+10. Revisa la información, asigna a los reviewers y has el pull request.
+11. Avisa que hiciste un pull request para que se revise y alguien más haga merge de tu branch a master.
+12. Ve a la sección de <code> para revisar que en efecto se vean reflejados tus cambios.
 
 
-
-
-QUOTE MAKER
-1) Hacer componente de uno en uno. Tendrá su código html y diseño propio.
-2) Página QuoteMaker, irá cambiando el componente (por bloque no por texto)
-3) En cada componente - Función que identifique la selección del usuario.
-4) En la página FinalQuot se irán importando los resultados de la selección y se jalará el precio ligado a esa opción (de los objetos), hara la suma y mostrara una lista de los datos seleccionados (selection_name)
-
-
-COMPONENTES
-1) Hacer clickeables las opciones
-2) Jalar la información de la selección del usuario
 
 
 
