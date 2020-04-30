@@ -1,15 +1,14 @@
 import React from 'react';
-import './payment.scss'
-import {Link} from 'react-router-dom';
+import "../../styles/css/main.css"
 
 const PaymentDeclined = () => {
 
     return (
         <div>
-           <h1>Prueba PaymentDeclined</h1>
+            <h1>Prueba PaymentDeclined</h1>
         </div>
     )
-    }
+}
 
 
 export default PaymentDeclined;
