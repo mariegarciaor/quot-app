@@ -1,6 +1,6 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
-import BigLogo from '../../styles/images/BigLogo';
+import BigLogo from '../../styles/images/BigLogo.jpg';
 
 const LogIn = () => {
 

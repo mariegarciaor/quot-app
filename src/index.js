@@ -3,12 +3,12 @@ import ReactDOM from 'react-dom';
 
 import 'bootstrap/dist/css/bootstrap.css';
 import './index.css';
-import PrintSystem from '../src/components/QuoteMaker/PrintSystem';
+import App from "./App";
 
 
 const container = document.getElementById('root');
 
-ReactDOM.render(<PrintSystem />,container);
+ReactDOM.render(<App />, container);
 
 
 

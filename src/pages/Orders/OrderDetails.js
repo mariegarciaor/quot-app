@@ -1,6 +1,5 @@
 import React from 'react';
-import './payment.scss'
-import {Link} from 'react-router-dom';
+import "../../styles/css/main.css"
 
 
 const OrderDetails = () => {

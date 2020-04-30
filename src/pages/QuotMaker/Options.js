@@ -1,5 +1,4 @@
 const printerSettings = {
-
     service: {
         step: 1,
         name: 'Servicio de impresión',
@@ -190,3 +189,5 @@ const printerSettings = {
         ]
     }
 };
+
+export default printerSettings;

@@ -2,20 +2,10 @@ import React, { useState } from 'react';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 
 
-<<<<<<< HEAD
-/*Checkout Folder*/
 import Payment from './pages/Checkout/Payment';
 import PaymentDeclined from './pages/Checkout/PaymentDeclined';
 import PaymentSuccess from './pages/Checkout/PaymentSuccess';
 import ReviewOrder from './pages/Checkout/ReviewOrder';
-=======
-import Home from '../src/pages/Home';
-import LogIn from '../src/pages/LogIn';
-import Register from './pages/Register';
-import QuoteMaker from './pages/QuoteMaker';
-import ComingSoon from './pages/ComingSoon';
-import WelcomeUser from '../src/components/Home/WelcomeUser';
->>>>>>> master
 
 /*Home Folder*/
 import LogIn from './pages/Home/LogIn';
@@ -46,11 +36,12 @@ import ComingSoon from './pages/ComingSoon'
   // { user, password }
 
 function App() {
+  // eslint-disable-next-line
   const [user, setUser] = useState(null)
 
   const handleLogin = (data) => {
     // Si el usuario es invalido
-    if(false) {
+    if(!data) {
       return false
     }
 
@@ -79,8 +70,6 @@ function App() {
           <Route exact path="/PrintSystem" component={ PrintSystem } />
           <Route exact path="/PrintUploadFile" component={ PrintUploadFile } />
           <Route exact path="/QuoteStart" component={ QuoteStart } />
-          <Route exact path="/ComingSoon" component={ ComingSoon } />
-          <Route exact path="/WelcomeUser" component={ WelcomeUser} />
           <Route exact path="/ComingSoon" component={ ComingSoon } />
         </Switch>
     </BrowserRouter>
