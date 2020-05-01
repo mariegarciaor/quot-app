@@ -1,7 +1,12 @@
 import React, { useState } from 'react';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 
+/*Generals*/
+import Layout from './pages/Layout';
+import ComingSoon from './pages/ComingSoon';
 
+
+/*Checkout*/
 import Payment from './pages/Checkout/Payment';
 import PaymentDeclined from './pages/Checkout/PaymentDeclined';
 import PaymentSuccess from './pages/Checkout/PaymentSuccess';
@@ -28,7 +33,7 @@ import PrintSystem from './pages/QuotMaker/PrintSystem';
 import PrintUploadFile from './pages/QuotMaker/PrintUploadFile';
 import QuoteStart from './pages/QuotMaker/QuoteStart';
 
-import ComingSoon from './pages/ComingSoon'
+
 
 // Recibe la info del usuario
   // Si esta info es correcta, lo seteo en user
@@ -50,6 +55,7 @@ function App() {
 
   return (
     <BrowserRouter>
+      <Layout>
         <Switch>
           <Route exact path="/payment" component={ Payment } />
           <Route exact path="/PaymentDeclined" component={ PaymentDeclined } />
@@ -72,6 +78,7 @@ function App() {
           <Route exact path="/QuoteStart" component={ QuoteStart } />
           <Route exact path="/ComingSoon" component={ ComingSoon } />
         </Switch>
+      </Layout>
     </BrowserRouter>
     );
   }  
