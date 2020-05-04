@@ -1,30 +1,46 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import {Printer} from 'react-feather';
 
 const QuoteStart = () => {
 
     return (
-        <div>
-           <h4> Paso 1 </h4>
-           <h1> Escoge el archivo a imprimir </h1>
-           <div>
-               <Link rel="icon" type="" href="">icono prueba </Link>
-               <h2> Tarjeta de presentacion </h2>
-               <p> Deja tu huella al hacer networking reflejando tu identidad y talento</p>
-               <button>Elegir</button>
-           </div>
-           <div>
-               <h2>Volantes y folletos</h2>
-               <p>¡Atrae aun mas clientes! La cantidad de tu negocio no estar en duda con estos acabados</p>
-               <button>Elegir</button>
-           </div>
-           <div>
-               <h2>Hojas membretadas</h2>
-               <p>Nada más profesional para impactar que papeleria personalizada ¿Listo para cerrar el trato? </p>
-               <button>Elegir</button>
-           </div>
+        <div class="container">
+            <div>
+                <h3> Paso 1 </h3>
+                <h1> Escoge el archivo a imprimir </h1>
+            </div>
+            
+            <div class="card">
+                <div>
+                    <img src="https://www.colorhexa.com/2cc2d1.png" class="card-img-top" alt="..."/>
+                    <Printer />
+                </div>
+                <div class="card-body">
+                    <h4 class="card-title">Tarjeta de presentacion</h4>
+                    <p class="card-text">Deja tu huella al hacer networking reflejando tu identidad y talento.</p>
+                    <a href="#" class="btn btn-primary">Cotizar</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://colorate.azurewebsites.net/SwatchColor/54A6DE" class="card-img-top" alt="..."/>
+                <div class="card-body">
+                    <h4 class="card-title">Volantes y folletos</h4>
+                    <p class="card-text">¡Atrae aun mas clientes! La cantidad de tu negocio no estar en duda con estos acabados.</p>
+                    <a href="#" class="btn btn-primary">Cotizar</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://www.beautycolorcode.com/84e1ff.png" class="card-img-top" alt="..."/>
+                <div class="card-body">
+                    <h4 class="card-title">Hojas membretadas</h4>
+                    <p class="card-text">Nada más profesional para impactar que papeleria personalizada ¿Listo para cerrar el trato?</p>
+                    <a href="" class="btn btn-primary">Cotizar</a>
+                </div>
+            </div>
         </div>
-    )
+        )
     }
 
 export default QuoteStart;

@@ -1,4 +1,4 @@
-const printerSettings = {
+const quotMakerInfo = {
     service: {
         step: 1,
         name: 'Servicio de impresión',
@@ -42,7 +42,7 @@ const printerSettings = {
         
             {
                 selection_name: 'Offset',
-                description:'Perfecto para pedidos de 1000 piezas',
+                description:'Perfecto para pedidos de 1000 piezas.',
                 cost: 15,
                 time:0.2
             },
@@ -56,9 +56,9 @@ const printerSettings = {
         ]
     },
 
-    type: { //Tipo de impresión
+    type: { //Caras de impresi´n
         step: 3,
-        name: 'Tipo de impresión',
+        name: 'Caras de impresión',
         title: '¿En cuántas caras las necesitas?',
         options: [   
             {
@@ -70,7 +70,7 @@ const printerSettings = {
         
             {
                 selection_name: 'Dos caras',
-                description:'¡Doble impacto! Logotipo en frente y datos por detrás',
+                description:'¡Doble impacto! Logotipo en frente y datos por detrás.',
                 cost: 300,
                 time: 1
             }
@@ -190,4 +190,4 @@ const printerSettings = {
     }
 };
 
-export default printerSettings;
+export default quotMakerInfo;
