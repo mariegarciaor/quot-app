@@ -18,7 +18,7 @@ const QuoteStart = () => {
                 <div class="card-body">
                     <h4 class="card-title">Tarjeta de presentacion</h4>
                     <p class="card-text">Deja tu huella al hacer networking reflejando tu identidad y talento.</p>
-                    <a href="#" class="btn btn-primary">Cotizar</a>
+                    <a href="/PrintSystem" class="btn btn-primary">Cotizar</a>
                 </div>
             </div>
 
@@ -27,7 +27,7 @@ const QuoteStart = () => {
                 <div class="card-body">
                     <h4 class="card-title">Volantes y folletos</h4>
                     <p class="card-text">¡Atrae aun mas clientes! La cantidad de tu negocio no estar en duda con estos acabados.</p>
-                    <a href="#" class="btn btn-primary">Cotizar</a>
+                    <a href="/PrintSystem" class="btn btn-primary">Cotizar</a>
                 </div>
             </div>
 
@@ -36,7 +36,7 @@ const QuoteStart = () => {
                 <div class="card-body">
                     <h4 class="card-title">Hojas membretadas</h4>
                     <p class="card-text">Nada más profesional para impactar que papeleria personalizada ¿Listo para cerrar el trato?</p>
-                    <a href="" class="btn btn-primary">Cotizar</a>
+                    <a href="/PrintSystem" class="btn btn-primary">Cotizar</a>
                 </div>
             </div>
         </div>

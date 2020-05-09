@@ -6,7 +6,7 @@ const NavBar = () => {
     return (
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container">
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="/WelcomeUser">
                 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSgbGRhHn7qbXF02gicUB1GNiHraUqfy_G767gGaC-QLboTJ3MM&usqp=CAU" height="30" alt="" />
             </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">

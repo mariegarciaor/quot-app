@@ -21,7 +21,7 @@ const PrintUploadFile = () => {
                 </div>
             </div>
 
-            <a href="#" class="btn btn-primary">¡Cotiza tu pedido!</a>
+            <a href="/PrintShipping" class="btn btn-primary">Siguiente</a>
 
             {/* style="width: 80%;" */}
             <div class="progress">

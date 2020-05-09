@@ -54,6 +54,9 @@ const PrintShipping = () => {
                     </div>
                 </div>
             </div>
+
+            <a href="/ReviewOrder" class="btn btn-primary">Cotiza tu pedido</a>
+
             {/* style="width: 90%;" */}
             <div class="progress">
                 <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">90%</div>
