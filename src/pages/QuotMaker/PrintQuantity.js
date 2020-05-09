@@ -44,6 +44,7 @@ const PrintQuantity = () => {
                 </div>
             </div>
 
+            <a href="/PrintFinish" class="btn btn-primary">Siguiente</a>
 
             {/* style="width: 40%;" */}
             <div class="progress">

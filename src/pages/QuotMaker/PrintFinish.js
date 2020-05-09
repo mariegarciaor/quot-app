@@ -54,6 +54,9 @@ const PrintFinish = () => {
                     </div>
                 </div>
             </div>
+
+            <a href="/PrintPaper" class="btn btn-primary">Siguiente</a>
+
             {/* style="width: 50%;" */}
             <div class="progress">
                 <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div>

@@ -55,6 +55,9 @@ const PrintSystem = () => {
                     </div>
                 </div>
             </div>
+
+            <a href="/PrintSides" class="btn btn-primary">Siguiente</a>
+
             {/* style="width: 20%;" */}
             <div class="progress">
                 <div class="progress-bar" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">20%</div>
