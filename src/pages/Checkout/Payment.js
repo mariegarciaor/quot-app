@@ -81,10 +81,10 @@ const Payment = () => {
           </div>
 
           <div class="col-md-6 mb-3">
-            <label for="cc-number">Credit card number</label>
+            <label for="cc-number">Numero de tarjeta</label>
             <input type="text" className="form-control" id="cc-number" placeholder="" required=""/>
             <div class="invalid-feedback">
-              Credit card number is required
+              Numero de tarjeta es requerido
             </div>
           </div>
 
