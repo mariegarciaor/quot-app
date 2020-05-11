@@ -5,7 +5,7 @@ import BigLogo from '../../styles/images/BigLogo.jpg';
 const WelcomeNew = () => {
 
     return (
-        <div>
+        <div class="container">
             <div>
                 <h1>¡Bienvenido!</h1>
                 <img className="#" src={ BigLogo } alt="Logo-Quot" style={{width: 300, height: 300}}/>
@@ -16,7 +16,7 @@ const WelcomeNew = () => {
                 <br/>
                 <Link to="/Login" className="">Inicia Sesión</Link>
                 <br/>
-                <Link to="/QuoteMaker" className="">Continua como invitado</Link>
+                <Link to="/QuoteStart" className="">Continua como invitado</Link>
             </div>
         </div>
     )
