@@ -5,13 +5,15 @@ import {Link} from 'react-router-dom';
 const Register = () => {
 
     return (
-        <div>
-            <div class="container">
+        <div class="container">
+            <div>
+                <h1>¡Bienvenido!</h1>
                 <h3>Registra tus datos para crear tu cuenta</h3>
                 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRLY88f6-_nxcyHWFXH_fqhqtjLLYmnGoMv1oXJOF4luqEbA7rW&usqp=CAU" alt="register-image"></img>
             </div>
-            <form class="container">
+            <form>
                 <div class="form-row">
+                    <h3></h3>
                     <div class="form-group col-md-6">
                     <label for="inputEmail4">Email</label>
                     <input type="email" class="form-control" id="inputEmail4"/>
