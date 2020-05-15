@@ -1,10 +1,19 @@
-/*Family*/
-$sarabun: 'Sarabun', ;
 
 /*Sizes*/
-$title-1: 3rem;
-$title-2: 2.5rem;
-$title-3: 2rem;
+$title-1:(
+    font-size: 3rem,
+    color: $color-2
+);
+
+
+// $title-2: 2.5rem;
+// $title-3: 2rem;
+// $title-4: ;
+// $title-5: ;
+// $title-6: ;
+
+
+
 $subtitle-1: 1.75rem;
 $subtitle-2: 1.5rem;
 $subtitle-3: 1.25rem;
@@ -13,7 +22,3 @@ $menu: 1.25rem;
 $footer: 1rem;
 $mobile: .75rem;
 
-/*Weight*/
-$light: 200;
-$regular: 400;
-$bold: 600; 

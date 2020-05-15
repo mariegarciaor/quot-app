@@ -1,0 +1,11 @@
+{
+    "version": 3,
+    "mappings": "AAAA,cAAc;ACAd,UAAU;AAUV,WAAW;ACVX,UAAU;AAKV,UAAU",
+    "sources": [
+        "main.scss",
+        "components/_colors.scss",
+        "components/_fonts.scss"
+    ],
+    "names": [],
+    "file": "main.css"
+}

@@ -1,8 +1,48 @@
-@import "colors";
-@import "fonts";
-@import "measurements";
+/*components*/
+@import "./components/colors";
+@import "./components/fonts";
 @import "links";
-@import "servicesCards";
-@import "navbar";
+@import "measurements";
+@import "orderCard";
+@import "titles";
+
+/*cambio*/
+/*helpers*/
+
+/*layout*/
 @import "footer";
-@import "global";
+@import "layout";
+@import "navbar";
+
+
+/*Pages*/
+/*_Checkout*/
+@import "Payment";
+@import "PaymentDeclined";
+@import "PaymentSuccess";
+@import "ReviewOrder";
+
+/*_Home*/
+@import "LogIn";
+@import "Register";
+@import "WelcomeNew";
+@import "WelcomeUser";
+
+/*_Orders*/
+@import "MyOrders";
+@import "OrderDetails";
+
+/*_QuotMaker*/
+@import "servicesCards";
+@import "PrintDesign";
+@import "PrintFinish";
+@import "PrintPaper";
+@import "PrintQuantity";
+@import "PrintShipping";
+@import "PrintSides";
+@import "PrintSystem";
+@import "PrintUploadFile";
+@import "QuoteStart";
+
+@import "ComingSoon";
+
