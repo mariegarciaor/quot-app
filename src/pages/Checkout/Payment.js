@@ -5,8 +5,11 @@ import "../../styles/css/main.css"
 const Payment = () => {
     return (
         <div className="container-fluid">
-            <h1>CHECK OUT</h1>
-            <h2>Selecciona un metodo de pago</h2>
+            <div className="checkout" >
+                <h1>CHECK OUT</h1>
+                <h2>Selecciona un metodo de pago</h2>
+            </div>
+
             <form>
                 <div className="form-row">
                     <div className="form-group col-md-6">
@@ -73,7 +76,7 @@ const Payment = () => {
                 <div class="row">
           <div class="col-md-6 mb-3">
             <label for="cc-name">Nombre de propietario</label>
-            <input type="text" class="form-control" id="cc-name" placeholder="" required=""/>
+            <input type="text" class="form-control" id="cc-name" placeholder="" required />
             <small class="text-muted">Nombre completo como se muestra en la tarjeta</small>
             <div class="invalid-feedback">
               El nombre del propietario es requerido
@@ -82,9 +85,23 @@ const Payment = () => {
 
           <div class="col-md-6 mb-3">
             <label for="cc-number">Numero de tarjeta</label>
-            <input type="text" className="form-control" id="cc-number" placeholder="" required=""/>
+            <input type="text" className="form-control" id="cc-number" placeholder="" required />
             <div class="invalid-feedback">
               Numero de tarjeta es requerido
+            </div>
+          </div>
+          <div class="col-md-3 mb-3">
+            <label for="cc-expiracion">Expiracion</label>
+            <input type="text" class="form-control" id="cc-expiracion" placeholder="" required />
+            <div class="invalid-feedback">
+              Fecha de expiracion es requerida
+            </div>
+          </div>
+          <div class="col-md-3 mb-3">
+            <label for="cc-cvv">CVV</label>
+            <input type="text" class="form-control" id="cc-cvv" placeholder="" required/>
+            <div class="invalid-feedback">
+              Codigo de seguridad es requerido
             </div>
           </div>
 
