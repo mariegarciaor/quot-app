@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 
+
 /*Generals*/
 import Layout from './pages/Layout';
 import ComingSoon from './pages/ComingSoon';

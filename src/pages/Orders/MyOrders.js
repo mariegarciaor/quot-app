@@ -1,6 +1,5 @@
 import React from "react";
-import "../../styles/css/main.css";
-// import "../Orders/OrderCard";
+
 
 // const MyOrders = () => {
 //   return (

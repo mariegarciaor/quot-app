@@ -1,48 +1,51 @@
 /*components*/
 @import "./components/colors";
 @import "./components/fonts";
-@import "links";
-@import "measurements";
-@import "orderCard";
-@import "titles";
+@import "./components/links";
+@import "./components/measurements";
+@import "./components/orderCard";
+@import "./components/titles";
 
 /*cambio*/
 /*helpers*/
 
 /*layout*/
-@import "footer";
-@import "layout";
-@import "navbar";
+@import "./layout/footer";
+@import "./layout/layout";
+@import "./layout/navbar";
 
 
 /*Pages*/
 /*_Checkout*/
-@import "Payment";
-@import "PaymentDeclined";
-@import "PaymentSuccess";
-@import "ReviewOrder";
+@import "./pages/Checkout/Payment";
+@import "./pages/Checkout/PaymentDeclined";
+@import "./pages/Checkout/PaymentSuccess";
+@import "./pages/Checkout/ReviewOrder";
 
 /*_Home*/
-@import "LogIn";
-@import "Register";
-@import "WelcomeNew";
-@import "WelcomeUser";
+@import "./pages/Home/LogIn";
+@import "./pages/Home/Register";
+@import "./pages/Home/WelcomeNew";
+@import "./pages/Home/WelcomeUser";
 
 /*_Orders*/
-@import "MyOrders";
-@import "OrderDetails";
+@import "./pages/Orders/MyOrders";
+@import "./pages/Orders/OrderDetails";
 
 /*_QuotMaker*/
-@import "servicesCards";
-@import "PrintDesign";
-@import "PrintFinish";
-@import "PrintPaper";
-@import "PrintQuantity";
-@import "PrintShipping";
-@import "PrintSides";
-@import "PrintSystem";
-@import "PrintUploadFile";
-@import "QuoteStart";
+@import "./pages/QuotMaker/servicesCards";
+@import "./pages/QuotMaker/PrintDesign";
+@import "./pages/QuotMaker/PrintFinish";
+@import "./pages/QuotMaker/PrintPaper";
+@import "./pages/QuotMaker/PrintQuantity";
+@import "./pages/QuotMaker/PrintShipping";
+@import "./pages/QuotMaker/PrintSides";
+@import "./pages/QuotMaker/PrintSystem";
+@import "./pages/QuotMaker/PrintUploadFile";
+@import "./pages/QuotMaker/QuoteStart";
 
-@import "ComingSoon";
+@import "./pages/ComingSoon";
 
+h1 {
+    color: #E74C3C;
+}

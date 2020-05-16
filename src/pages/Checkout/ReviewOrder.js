@@ -6,7 +6,7 @@ const ReviewOrder = () => {
     return (
         <div className="container">
            <div class="card">
-                <img class="card-img-top" src="..." alt="Card image cap"/>
+                <img class="card-img-top" src="..." alt="Card cap"/>
                 <div class="card-body">
                     <h5 class="card-title">Revisa tu cotizacion</h5>
                 </div>

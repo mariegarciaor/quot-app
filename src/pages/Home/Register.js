@@ -1,5 +1,4 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
 
 
 const Register = () => {
@@ -9,11 +8,11 @@ const Register = () => {
             <div>
                 <h1>¡Bienvenido!</h1>
                 <h3>Registra tus datos para crear tu cuenta</h3>
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRLY88f6-_nxcyHWFXH_fqhqtjLLYmnGoMv1oXJOF4luqEbA7rW&usqp=CAU" alt="register-image"></img>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRLY88f6-_nxcyHWFXH_fqhqtjLLYmnGoMv1oXJOF4luqEbA7rW&usqp=CAU" alt="register"></img>
             </div>
             <form>
                 <div class="form-row">
-                    <h3></h3>
+                    <h3>Texto</h3>
                     <div class="form-group col-md-6">
                     <label for="inputEmail4">Email</label>
                     <input type="email" class="form-control" id="inputEmail4"/>
@@ -59,55 +58,8 @@ const Register = () => {
                 <button type="submit" class="btn btn-primary">Sign in</button>
             </form>
         </div>
-        
     )
 }
-
-{/* <div>
-             <div>
-                <h2>Registra tus datos para crear tu cuenta</h2>
-                <img src="" alt=""/>
-            </div>
-
-            <div>
-                <h4>Informacion personal</h4>
-                <h5>Nombres</h5>
-                <input type="text"/>
-                <h5>Apellidos</h5>
-                <input type="text"/>
-                <h5>Empresa</h5>
-                <input type="text"/>
-            </div>
-
-            <div>
-                <h4>Informacion de contacto</h4>
-                <h5>telefono</h5>
-                <input type="tel"/>
-                <h5>Correo electronico</h5>
-                <input type="email"/>
-                <h5>Contraseña</h5>
-                <input type="password"/>
-                <h5>Confirma contraseña</h5>
-                <input type="password"/>
-            </div>
-
-            <div>
-                <h4>Direccion</h4>
-                <h5>calle y numero</h5>
-                <input type="text"/>
-                <h5>Colonia</h5> <h5>Codigo postal</h5>
-                <input type="text"/> <input type="text"/>
-                <h5>Ciudad</h5>
-                <input type="text"/>
-            </div>
- 
-            <div>
-                <button>Registrate</button>
-                <p>¿Ya tienes una cuenta?</p>
-                <Link to="/LogIn" ClassName=""></Link>
-            </div>
-        </div> */}
-
-               
+           
 export default Register;
 
