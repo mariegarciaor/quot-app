@@ -7,7 +7,7 @@ const LogIn = () => {
     return (
       <div class="container">
         <div>
-          <h1>¡Bienvenido!</h1>
+          <h1 class="title-1">¡Bienvenido!</h1>
           <h5>Inicia sesión para continuar</h5>
           <img src={BigLogo}/>
         </div>
