@@ -3,4 +3,36 @@
 /*Shadows*/
 /*Family*/
 /*Weight*/
+/*Measurements*/
+/*Percentages*/
+/*Sizes*/
+/*cambio*/
+/*helpers*/
+/*layout*/
+/* Footer */
+/* Global */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Sarabun";
+}
+
+h4 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #082848;
+}
+
+/* Navigation Bar */
+/*Pages*/
+/*_Checkout*/
+/*Payment SCSS*/
+/*_Home*/
+/*_Orders*/
+/*Myorders SCSS*/
+/*_QuotMaker*/
+/*QuoteMaker SCSS*/
+h1 {
+  color: #E74C3C;
+}
 /*# sourceMappingURL=main.css.map */
