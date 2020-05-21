@@ -5,7 +5,12 @@
 /*Weight*/
 /*Measurements*/
 /*Percentages*/
-/*Sizes*/
+.title-1 {
+  font-size: 30px;
+  font-weight: bold;
+  color: #1F5B99;
+}
+
 /*cambio*/
 /*helpers*/
 /*layout*/
@@ -14,7 +19,6 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: "Sarabun";
 }
 
 h4 {
@@ -32,7 +36,4 @@ h4 {
 /*Myorders SCSS*/
 /*_QuotMaker*/
 /*QuoteMaker SCSS*/
-h1 {
-  color: #E74C3C;
-}
 /*# sourceMappingURL=main.css.map */
