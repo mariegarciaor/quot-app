@@ -1,8 +1,8 @@
 import React from 'react';
-import {Facebook} from 'react-feather'
-import {Instagram} from 'react-feather'
-import {MessageCircle} from 'react-feather'
-import {Twitter} from 'react-feather'
+import { Facebook } from 'react-feather';
+import { Instagram } from 'react-feather';
+import { MessageCircle } from 'react-feather';
+import { Twitter } from 'react-feather';
 
 const Footer = () => {
 

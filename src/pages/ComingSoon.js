@@ -32,13 +32,13 @@ const ComingSoon = () => {
                 <br></br>
                 <br></br>
                 <h1>Botones</h1>
-                <button class="button-1">clase: button-1</button>
+                <button class="btn btn-primary button-1">clase: button-1</button>
                 <br></br>
                 <br></br>
-                <button class="button-2">clase: button-2</button>
+                <button class="btn btn-secondary button-2">clase: button-2</button>
                 <br></br>
                 <br></br>
-                <button class="button-3">clase: button-3</button>
+                <button class="btn btn-success button-3">clase: button-3</button>
             </div>
 
             <div>
