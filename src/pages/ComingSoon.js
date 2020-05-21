@@ -4,7 +4,7 @@ import '../styles/sass/main.css';
 const ComingSoon = () => {
 
     return (
-        <div>
+        <div class="container">
             <div>
                 <br></br>    
                 <h1>Títulos</h1>
