@@ -4,6 +4,26 @@
 /*Shadows*/
 /*Family*/
 /*Weight*/
+.link-1 {
+  font-size: 12pt;
+  background-color: #2cd0d1;
+  padding: 5px 40px;
+  color: #fff;
+}
+
+.link-2 {
+  font-size: 12pt;
+  color: #082848;
+  font-weight: 600;
+}
+
+.link-3 {
+  font-size: 14pt;
+  color: #2cd0d1;
+  font-weight: 600;
+  text-decoration: underline;
+}
+
 /*Measurements*/
 /*Percentages*/
 .title-1 {
