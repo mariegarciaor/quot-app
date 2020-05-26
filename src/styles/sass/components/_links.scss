@@ -1,2 +1,25 @@
 // $link-1
+.link-1 {
+  font-size: 12pt;
+  background-color: $color-1;
+  padding: 5px 40px;
+  color: $color-7;
+}
+// <a className="link-1" style={{ color: "$white" }}> </a>
+
 // $link-2
+
+.link-2 {
+  font-size: 12pt;
+  color: $color-2;
+  font-weight: $bold;
+}
+
+// $link-3
+
+.link-3 {
+  font-size: 14pt;
+  color: $color-1;
+  font-weight: $bold;
+  text-decoration: underline;
+}
