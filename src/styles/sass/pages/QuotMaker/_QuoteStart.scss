@@ -1,1 +1,59 @@
 /*QuoteMaker SCSS*/
+
+.QuoteStart{
+
+
+	&__Header {
+		margin-bottom: 20px;
+	}
+
+	.Header {
+		&__Step{
+			color: $color-3;
+			text-align: center;
+		}
+
+		&__Title {
+			text-align: center;
+			font-size: 18px;
+			width: 80%;
+			margin: auto;
+		}
+	}
+
+
+
+	&__Option {
+		position: relative;
+	}
+
+	.Option__Image{
+		img{
+			max-height: 200px;
+		}
+		.Image__Icon {
+			position: absolute;
+			left: 50%;
+			top: 25%;
+			transform: translate(-50%) scale(3);
+
+		}
+	}
+
+	.Option__Body{
+		background-color: #E9E9E9;
+		text-align: center;
+		.card-text{
+			font-size: 12px;
+			text-align: center;
+		}
+	}
+
+	.Option__Btn{
+		width: 50%;
+		max-width: 300px;
+		margin: auto;
+		background-color: $color-2;
+		color: white;
+	}
+}
