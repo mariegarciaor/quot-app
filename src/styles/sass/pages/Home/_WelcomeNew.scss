@@ -1,0 +1,44 @@
+
+
+.wNew {
+
+	.Header {
+
+		&__Title {
+			text-align: center;
+			font-size: 2em;
+			margin: 10px auto;
+		}
+
+		&__Image {
+			width: 80%;
+			margin: 10px auto;
+		}
+
+		&__Text {
+			text-align: center;
+			width: 60%;
+			margin: 5px auto 15px;
+			font-weight: $light;
+		}
+	}
+
+
+	&__Bottom {
+		background-color: $color-3;
+		border-top-right-radius: 15px;
+		border-top-left-radius: 15px;
+		padding: 20px;
+
+	}
+
+	.Bottom {
+		&__Register {
+			background-color: $color-2;
+			color: white;
+		}
+		&__Invited {
+			text-decoration: underline;
+		}
+	}
+}
