@@ -1,4 +1,5 @@
 import React from 'react';
+import '../../styles/sass/main.scss';
 
 
 
@@ -73,34 +74,34 @@ const Payment = () => {
                         <label className="form-check-label" htmlFor="paypal"> Paypal </label>
                     </div>
                 </div>
-                <div class="row">
-          <div class="col-md-6 mb-3">
-            <label for="cc-name">Nombre de propietario</label>
-            <input type="text" class="form-control" id="cc-name" placeholder="" required />
-            <small class="text-muted">Nombre completo como se muestra en la tarjeta</small>
-            <div class="invalid-feedback">
+                <div className="row">
+          <div className="col-md-6 mb-3">
+            <label htmlFor="cc-name">Nombre de propietario</label>
+            <input type="text" className="form-control" id="cc-name" placeholder="" required />
+            <small className="text-muted">Nombre completo como se muestra en la tarjeta</small>
+            <div className="invalid-feedback">
               El nombre del propietario es requerido
             </div>
           </div>
 
-          <div class="col-md-6 mb-3">
-            <label for="cc-number">Numero de tarjeta</label>
+          <div className="col-md-6 mb-3">
+            <label htmlFor="cc-number">Numero de tarjeta</label>
             <input type="text" className="form-control" id="cc-number" placeholder="" required />
-            <div class="invalid-feedback">
+            <div className="invalid-feedback">
               Numero de tarjeta es requerido
             </div>
           </div>
-          <div class="col-md-3 mb-3">
-            <label for="cc-expiracion">Expiracion</label>
-            <input type="text" class="form-control" id="cc-expiracion" placeholder="" required />
-            <div class="invalid-feedback">
+          <div className="col-md-3 mb-3">
+            <label htmlFor="cc-expiracion">Expiracion</label>
+            <input type="text" className="form-control" id="cc-expiracion" placeholder="" required />
+            <div className="invalid-feedback">
               Fecha de expiracion es requerida
             </div>
           </div>
-          <div class="col-md-3 mb-3">
-            <label for="cc-cvv">CVV</label>
-            <input type="text" class="form-control" id="cc-cvv" placeholder="" required/>
-            <div class="invalid-feedback">
+          <div className="col-md-3 mb-3">
+            <label htmlFor="cc-cvv">CVV</label>
+            <input type="text" className="form-control" id="cc-cvv" placeholder="" required/>
+            <div className="invalid-feedback">
               Codigo de seguridad es requerido
             </div>
           </div>

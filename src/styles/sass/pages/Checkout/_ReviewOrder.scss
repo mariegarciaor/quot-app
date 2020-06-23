@@ -1,0 +1,27 @@
+.card-title {
+    color: $color-2;
+    font-weight: $bold ;
+}
+
+.list-group1 {
+    border: $color-6 1px solid;
+    border-top: $color-3 10px solid;
+    border-left: $color-6 1px solid;
+}
+.list-group {
+    border: $color-6 1px solid;
+    border-left: $color-6 1px solid;
+}
+
+.list-group-item {
+    border: $color-6 1px solid;
+    border-top: $color-3 4px solid;
+    border-left: $color-6 1px solid;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: $color-7 1px solid;
+}

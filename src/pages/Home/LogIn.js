@@ -1,34 +1,34 @@
 import React from 'react';
 import BigLogo from '../../styles/images/BigLogo.jpg';
-import '../../styles/sass/main.css'
+import '../../styles/sass/main.scss'
 
 const LogIn = () => {
 
     return (
-      <div class="container">
+      <div className="container">
         <div>
-          <h1 class="title-1">¡Bienvenido!</h1>
+          <h1 className="title-1">¡Bienvenido!</h1>
           <h5>Inicia sesión para continuar</h5>
           <img src={BigLogo}/>
         </div>
 
         <form>
-          <div class="form-group row">
-            <div class="col-sm-10">
-              <input type="email" class="form-control" id="inputEmail3" placeholder="E-mail"/>
+          <div className="email form-group row">
+            <div className="col-sm-10">
+              <input type="email" className="form-control" id="inputEmail3" placeholder="E-mail"/>
             </div>
           </div>
 
-          <div class="form-group row">
-            <div class="col-sm-10">
-              <input type="password" class="form-control" id="inputPassword3" placeholder="Contraseña"/>
+          <div className="password form-group row">
+            <div className="col-sm-10">
+              <input type="password" className="form-control" id="inputPassword3" placeholder="Contraseña"/>
             </div>
           </div>
 
-          <div class="form-group row">
-            <div class="form-check">
-              <input class="form-check-input" type="checkbox" id="gridCheck1"/>
-              <label class="form-check-label" for="gridCheck1">
+          <div className="checkbox form-group row">
+            <div className="form-check">
+              <input className="form-check-input" type="checkbox" id="gridCheck1"/>
+              <label className="form-check-label" for="gridCheck1">
                 Recordar cuenta
               </label>
             </div>
@@ -37,9 +37,9 @@ const LogIn = () => {
             </div>
           </div>
           
-          <div class="form-group row">
-            <div class="col-sm-10">
-              <a href="/QuoteStart" class="btn btn-primary">Iniciar sesión</a>
+          <div className="inicio form-group row">
+            <div className="col-sm-10">
+              <a href="/QuoteStart" className="btn btn-primary">Iniciar sesión</a>
             </div>
           </div>
 
@@ -57,27 +57,5 @@ const LogIn = () => {
     )
 }
 
-{/* <div>
-              <div>
-                <h3>Inicia sesión para continuar </h3>
-                <img className="#" src={BigLogo} alt="Logo Quot" style={{width: 300, height: 300}}/>
-              </div>
-              <div>
-              
-                <input type="email" placeholder="E-mail"/>
-                  <i>''</i>
-                <input type="password" placeholder="Password"/>
-                  <i>''</i>
-                <input type ="checkbox"/>
-                    <label>Recordar cuenta</label>
-                    
-                <Link to="/ComingSoon">¿Olvidaste tu contraseña?</Link>
-            
-                <Link to="/WelcomeUse">Inicia sesión</Link>
-      
-                <p>¿No tienes cuenta?</p>
-                <Link to="/Register" className="">Registrate</Link>
-            </div>
-      </div> */}
 
 export default LogIn;

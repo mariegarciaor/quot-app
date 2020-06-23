@@ -1,1 +1,28 @@
 /*Payment SCSS*/
+.checkout {
+    background-color: $color-3;
+    color: $color-7;
+    border-radius: 7px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-fluid {
+    font-family: $main-font;
+}
+
+.form-control {
+    border: $color-3 2px solid;
+    border-radius: 7px;
+}
+
+.form-check-input {
+    border: $color-3 2px solid;
+}
+.btn {
+    background-color: $color-2;
+    border-radius: $color-2 2px solid;
+
+}
