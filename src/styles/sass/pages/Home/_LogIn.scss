@@ -1,0 +1,25 @@
+
+.title-1 {
+    color: $color-2;
+    background-color: $color-7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+h5 {
+    color:$color-3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    background-color: $color-3;
+    color:$color-7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}

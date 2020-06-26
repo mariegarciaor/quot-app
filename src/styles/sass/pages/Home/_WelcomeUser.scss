@@ -1,0 +1,21 @@
+.header {
+    background-color: $color-7;
+    color:$color-2;
+    font-weight: $bold;
+}
+.col-12 {
+    background-color: $color-2;
+    color: $color-7;
+}
+
+.link {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+p {
+    background-color: $color-7;
+    color: $color-6;
+}
