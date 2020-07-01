@@ -2,7 +2,6 @@ import React from 'react';
 import '../../styles/sass/main.scss';
 
 
-
 const Payment = () => {
     return (
         <div className="container-fluid">
