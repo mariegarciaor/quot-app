@@ -6,15 +6,59 @@
 /*Weight*/
 .link-1 {
   font-size: 12pt;
-  background-color: #2cd0d1;
-  padding: 5px 40px;
-  color: #fff;
+  color: #666;
+  text-decoration: underline;
+}
+
+.link-1:link {
+  color: #666;
+  text-decoration: underline;
+}
+
+.link-1:visited {
+  color: #666;
+  text-decoration: underline;
+}
+
+.link-1:active {
+  color: #666;
+  text-decoration: underline;
+}
+
+.link-1:hover {
+  color: #666;
+  text-decoration: underline;
 }
 
 .link-2 {
   font-size: 12pt;
   color: #082848;
   font-weight: 600;
+  text-decoration: none;
+}
+
+.link-2:link {
+  color: #082848;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.link-2:visited {
+  color: #082848;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.link-2:active {
+  color: #082848;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.link-2:hover {
+  color: #082848;
+  font-weight: 600;
+  text-decoration: none;
 }
 
 .link-3 {
@@ -22,6 +66,22 @@
   color: #2cd0d1;
   font-weight: 600;
   text-decoration: underline;
+}
+
+.link-3:link {
+  color: #2cd0d1;
+}
+
+.link-3:visited {
+  color: #2cd0d1;
+}
+
+.link-3:active {
+  color: #2e79ba;
+}
+
+.link-3:hover {
+  color: #2e79ba;
 }
 
 /*Measurements*/
@@ -36,6 +96,60 @@
 .button-1 {
   background-color: #082848;
   border: #082848;
+  border-radius: 0.75rem;
+}
+
+.button-1:hover {
+  background-color: #082848;
+}
+
+.button-1:active {
+  background-color: #082848;
+}
+
+.button-1:focus {
+  background-color: #082848;
+}
+
+.button-2 {
+  background-color: #2cd0d1;
+  border: #2cd0d1;
+  border-radius: 0.75rem;
+  width: 80%;
+}
+
+.button-2:hover {
+  background-color: #2e79ba;
+}
+
+.button-2:active {
+  background-color: #2e79ba;
+}
+
+.button-2:focus {
+  background-color: #2e79ba;
+}
+
+.button-3 {
+  background-color: transparent;
+  border: #fff;
+  border-radius: 0.75rem;
+  color: #fff;
+}
+
+.button-3:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+.button-3:active {
+  background-color: #fff;
+  color: #000;
+}
+
+.button-3:focus {
+  background-color: #fff;
+  color: #000;
 }
 
 /*Párrafos*/
