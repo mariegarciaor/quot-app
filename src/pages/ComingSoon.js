@@ -34,19 +34,19 @@ const ComingSoon = () => {
         <button class="btn btn-secondary button-2">clase: button-2</button>
         <br></br>
         <br></br>
-        <button class="btn btn-success button-3">clase: button-3</button>
+        <button class="btn btn-outline-light button-3">clase: button-3</button>
       </div>
 
       <div>
         <br></br>
         <br></br>
         <h1>Links</h1>
-        <a class="link-1">clase: link-1</a>
+        <a className="link-1" href="">clase: link-1</a>
         <br></br>
-        <a class="link-2">clase: link-2</a>
+        <a className="link-2" href="">clase: link-2</a>
         <br></br>
         <div class="text-3-box">
-          <a class="link-3">clase: link-3</a>
+          <a className="link-3" href="">clase: link-3</a>
         </div>
       </div>
 

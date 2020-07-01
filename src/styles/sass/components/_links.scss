@@ -1,25 +1,68 @@
 // $link-1
-.link-1 {
-  font-size: 12pt;
-  background-color: $color-1;
-  padding: 5px 40px;
-  color: $color-7;
-}
-// <a className="link-1" style={{ color: "$white" }}> </a>
+.link-1{
+    font-size: 12pt;
+    color: $color-6;
+    text-decoration: underline;
+    &:link{
+      color: $color-6;
+      text-decoration: underline;
+    }
+    &:visited{
+      color: $color-6;
+      text-decoration: underline;
+    }
+    &:active{
+      color: $color-6;
+      text-decoration: underline;
+    }
+    &:hover{
+      color: $color-6;
+      text-decoration: underline;
+    }
+  }
 
-// $link-2
-
-.link-2 {
+.link-2{
   font-size: 12pt;
   color: $color-2;
   font-weight: $bold;
+  text-decoration: none;
+  &:link{
+    color: $color-2;
+    font-weight: $bold;
+    text-decoration: none;
+  }
+  &:visited{
+    color: $color-2;
+    font-weight: $bold;
+    text-decoration: none;
+  }
+  &:active{
+    color: $color-2;
+    font-weight: $bold;
+    text-decoration: none;
+  }
+  &:hover{
+    color: $color-2;
+    font-weight: $bold;
+    text-decoration: none;
+  }
 }
-
-// $link-3
 
 .link-3 {
   font-size: 14pt;
   color: $color-1;
   font-weight: $bold;
   text-decoration: underline;
+  &:link{
+    color: $color-1;
+  }
+  &:visited{
+    color: $color-1;
+  }
+  &:active{
+    color: $color-5;
+  }
+  &:hover{
+    color: $color-5;
+  }
 }

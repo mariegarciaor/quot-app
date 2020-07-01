@@ -2,4 +2,49 @@
 .button-1{
     background-color: $color-2;
     border: $color-2;
+    border-radius: $mb;
+    &:hover{
+        background-color: $color-2;
+    }
+    &:active{
+        background-color: $color-2;
+    }
+    &:focus{
+        background-color: $color-2;
+    }
+}
+
+.button-2{
+    background-color: $color-1;
+    border: $color-1;
+    border-radius: $mb;
+    width: $medium;
+    &:hover{
+        background-color: $color-5;
+    }
+    &:active{
+        background-color: $color-5;
+    }
+    &:focus{
+        background-color: $color-5;
+    }
+}
+
+.button-3{
+    background-color: transparent;
+    border: $color-7;
+    border-radius: $mb;
+    color: $color-7;
+    &:hover{
+        background-color: $color-7;
+        color: $color-8;
+    }
+    &:active{
+        background-color: $color-7;
+        color: $color-8;
+    }
+    &:focus{
+        background-color: $color-7;
+        color: $color-8;
+    }
 }
