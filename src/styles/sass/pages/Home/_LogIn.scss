@@ -1,23 +1,36 @@
-
-.title-1 {
-    color: $color-2;
-    background-color: $color-7;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-
+div.container {
+    padding: 0;
 }
-h5 {
-    color:$color-3;
+
+.login-cover {
+    background-color: transparent;
+    background-image: url(https://cdn.shopify.com/s/files/1/0947/6150/products/Black_White_Desk_SC_Stockshop_styled_stock20_WM.jpg?v=1568233926);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    width: 100vw;
+    height: 90vh;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+    .title-1 {
+        background-color: unset;
+        color: $color-9;
+        font-weight: 300;
+        font-size: 70px
+    }
+    h5 {
+        color: $color-6;
+    }
 }
 
 form {
-    background-color: $color-3;
-    color:$color-7;
+    padding: 4rem 0;
+    // background-color: $color-3;
+    color: $color-2;
     display: flex;
     justify-content: center;
     align-items: center;

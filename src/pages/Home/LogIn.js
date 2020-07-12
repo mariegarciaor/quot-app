@@ -1,18 +1,19 @@
 import React from 'react';
-import BigLogo from '../../styles/images/BigLogo.jpg';
 import '../../styles/sass/main.scss'
 
 const LogIn = () => {
 
     return (
-      <div className="container">
-        <div>
+      <div>
+        <div className="login-cover">
+          <div className=" container">
           <h1 className="title-1">¡Bienvenido!</h1>
-          <h5>Inicia sesión para continuar</h5>
-          <img src={BigLogo}/>
+          <h5>Cotizar servicios de impresión en minutos ahora es posible.</h5>
+          </div>
         </div>
 
         <form>
+          <h4>Inicia sesión para continuar</h4>
           <div className="email form-group row">
             <div className="col-sm-10">
               <input type="email" className="form-control" id="inputEmail3" placeholder="E-mail"/>
@@ -46,12 +47,7 @@ const LogIn = () => {
           <div>
             <p>¿No tienes cuenta? <a href="/Register">Registrate</a></p>
           </div>
-
-
         </form>
-      
-
-
       </div>
       
     )
