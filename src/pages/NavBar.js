@@ -5,7 +5,7 @@ import logo1 from '../styles/images/logo1.png';
 const NavBar = () => {
 
     return (
-        <nav className="navbar navbar-expand-lg">
+        <nav className="navbar navbar-expand-lg navbar-dark">
             <div className="container">
             <a className="navbar-brand" href="/WelcomeUser">
                 <img src={ logo1 } height="35px"/>

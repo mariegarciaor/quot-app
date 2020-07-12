@@ -20,19 +20,51 @@ div.container {
         background-color: unset;
         color: $color-9;
         font-weight: 300;
-        font-size: 70px
+        font-size: 70px;
     }
     h5 {
         color: $color-6;
     }
 }
 
+.login-description {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    .main-description {
+        padding: 30px;
+        background-color: whitesmoke;
+        width: 500px;
+        margin: 30px;
+    }
+    p {
+        background-color: inherit;
+    }
+}
+
 form {
+    margin: 20px;
     padding: 4rem 0;
-    // background-color: $color-3;
     color: $color-2;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    h4 {
+        margin-bottom: 2.5rem;
+    }
+    .form-control {
+        width: 340px;
+    }
+    .olvidaste-contraseña {
+        margin-left: 1rem;
+    }
+    .btn-primary {
+        width: 150px;
+        margin-top: 2rem;
+        background-color: $color-3;
+        border: none;
+    }
 }
