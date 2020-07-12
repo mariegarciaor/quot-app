@@ -1,5 +1,11 @@
 /*QuoteMaker SCSS*/
 
+.quot-maker-survey {
+
+	height: fit-content;
+	padding: 20px;
+}
+
 .QuoteStart{
 
 
@@ -30,13 +36,7 @@
 	.Option__Image{
 		img{
 			max-height: 200px;
-		}
-		.Image__Icon {
-			position: absolute;
-			left: 50%;
-			top: 25%;
-			transform: translate(-50%) scale(3);
-
+			object-fit: cover;
 		}
 	}
 

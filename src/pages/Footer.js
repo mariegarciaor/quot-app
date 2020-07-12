@@ -9,23 +9,23 @@ const Footer = () => {
     return (
         <footer className="main-footer">
             <div className="container">
+                <ul className="nav justify-content-end">
+                    <li className="nav-item">
+                        <a className="nav-link active" href="#">Contáctanos</a>
+                    </li>
+                    <li className="nav-item">
+                        <a className="nav-link" href="#">Facturación</a>
+                    </li>
+                    <li className="nav-item">
+                        <a className="nav-link" href="#">Programa de lealtad</a>
+                    </li>
+                </ul>
                 <div className="social-media">
                     <Facebook />
                     <Instagram />
                     <MessageCircle />
                     <Twitter />
                 </div>
-                <ul className="nav justify-content-end">
-                    <li className="nav-item">
-                        <a className="nav-link" href="#">¡Cotiza ahora!</a>
-                    </li>
-                    <li className="nav-item">
-                        <a className="nav-link active" href="#">Contáctanos</a>
-                    </li>
-                    <li className="nav-item">
-                        <a className="nav-link" href="#">Acerca de Quot</a>
-                    </li>
-                </ul>
             </div>
         </footer>
     )
