@@ -1,25 +1,21 @@
 /* Navigation Bar */
-// nav{
-//     position: absolute;
-//     top: 0%;
-//     left: 0%;
-//     right: 0%;
-//     height: $xxlg;
-//     width: 100%;
-//     display: flex;
-//     justify-content: space-between;
-//     align-items: center;
-//     font-family: $sarabun;
-//     font-size: $menu;
-//     font-weight: $regular;
-//     background-color: $dark-blue;
-//     ul{
-//         list-style: none;
-//         display: flex;
-//         justify-content: space-around;
-//         li{
-//             margin: $md;
-//             color: $white;
-//         }
-//     }
-// }
+
+nav {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2CD0D1;
+    ul{
+        list-style: none;
+        display: flex;
+        justify-content: space-around;
+        li{
+            color: white;
+        }
+    }
+}

@@ -4,7 +4,7 @@ import {Printer} from 'react-feather';
 const QuoteStart = () => {
 
     return (
-        <div className="container QuoteStart">
+        <div className="container QuoteStart quot-maker-survey">
             <div className="QuoteStart__Header">
                 <h6 className="Header__Step"> Paso 1 </h6>
                 <h1 className="Header__Title">
@@ -14,8 +14,7 @@ const QuoteStart = () => {
             
             <div className="card my-5 QuoteStart__Option">
                 <div className="Option__Image">
-                    <img src="https://www.colorhexa.com/2cc2d1.png" className="card-img-top" alt="..."/>
-                    <Printer className="Image__Icon"/>
+                    <img src="https://cdn.dribbble.com/users/1408866/screenshots/7903851/media/ee68a4f057437472689c9cd1bc1a64a6.jpg" className="card-img-top" alt="..."/>
                 </div>
                 <div className="card-body Option__Body">
                     <h4 className="card-title">Tarjeta de presentacion</h4>
@@ -28,7 +27,7 @@ const QuoteStart = () => {
 
             <div className="card  my-5 QuoteStart__Option">
                 <div className="Option__Image">
-                    <img src="https://www.colorhexa.com/2cc2d1.png" className="card-img-top" alt="..."/>
+                    <img src="https://cdn.dribbble.com/users/1111995/screenshots/4165918/dribbble.png" className="card-img-top" alt="..."/>
                 </div>
                 <div className="card-body Option__Body">
                     <h4 className="card-title">Volantes y folletos</h4>
