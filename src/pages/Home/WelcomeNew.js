@@ -19,6 +19,41 @@ const WelcomeNew = () => {
                 <br/>
                 <Link to="/QuoteStart" className="col-12 text-center mt-3 text-white Bottom__Invited">Continua como invitado</Link>
             </div>
+            <h1>prueba</h1>
+            <h1>prueba</h1>
+            <h1>prueba</h1>
+            <h1>prueba</h1>
+            <h1>prueba</h1>
+            <h1>prueba</h1>
+            <h1>prueba</h1>
+            <h1>prueba</h1>
+            <h1>prueba</h1>
+            <h1>prueba</h1>
+            <h1>prueba</h1>
+            <h1>prueba</h1>
+            <h1>prueba</h1>
+            <h1>prueba</h1>
+            <h1>prueba</h1>
+            <h1>prueba</h1>
+            <h1>prueba</h1>
+            <h1>prueba</h1>
+            <h1>prueba</h1>
+            <h1>prueba</h1>
+            <h1>prueba</h1>
+            <h1>prueba</h1>
+            <h1>prueba</h1>
+            <h1>prueba</h1>
+            <h1>prueba</h1>
+            <h1>prueba</h1>
+            <h1>prueba</h1>
+            <h1>prueba</h1>
+            <h1>prueba</h1>
+            <h1>prueba</h1>
+            <h1>prueba</h1>
+            <h1>prueba</h1>
+            <h1>prueba</h1>
+            <h1>prueba</h1>
+            <h1>prueba</h1>
         </div>
     )
 }

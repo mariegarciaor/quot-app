@@ -7,28 +7,26 @@ import { Twitter } from 'react-feather';
 const Footer = () => {
 
     return (
-        <footer>
-             <div>
-                <Facebook />
-                <Instagram />
-                <MessageCircle />
-                <Twitter />
+        <footer className="main-footer">
+            <div className="container">
+                <div className="social-media">
+                    <Facebook />
+                    <Instagram />
+                    <MessageCircle />
+                    <Twitter />
+                </div>
+                <ul className="nav justify-content-end">
+                    <li className="nav-item">
+                        <a className="nav-link" href="#">¡Cotiza ahora!</a>
+                    </li>
+                    <li className="nav-item">
+                        <a className="nav-link active" href="#">Contáctanos</a>
+                    </li>
+                    <li className="nav-item">
+                        <a className="nav-link" href="#">Acerca de Quot</a>
+                    </li>
+                </ul>
             </div>
-            <ul className="nav justify-content-end">
-                <li className="nav-item">
-                    <a className="nav-link active" href="#">Active</a>
-                </li>
-                <li className="nav-item">
-                    <a className="nav-link" href="#">Link</a>
-                </li>
-                <li className="nav-item">
-                    <a className="nav-link" href="#">Link</a>
-                </li>
-                <li className="nav-item">
-                    <a className="nav-link disabled" href="#" tabIndex="-1" aria-disabled="true">Disabled</a>
-                </li>
-            </ul>
-            
         </footer>
     )
 }
