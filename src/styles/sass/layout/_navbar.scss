@@ -1,6 +1,7 @@
 /* Navigation Bar */
 
 nav {
+    color: white;
     position: absolute;
     top: 0%;
     left: 0%;
@@ -13,9 +14,9 @@ nav {
     ul{
         list-style: none;
         display: flex;
-        justify-content: space-around;
-        
+        justify-content: space-around;   
     }
+
 }
 
 a.nav-link {
