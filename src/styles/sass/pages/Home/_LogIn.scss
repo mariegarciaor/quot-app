@@ -1,10 +1,14 @@
+
+
 div.container {
     padding: 0;
 }
 
 .login-cover {
     background-color: transparent;
-    background-image: url(https://cdn.shopify.com/s/files/1/0947/6150/products/Black_White_Desk_SC_Stockshop_styled_stock20_WM.jpg?v=1568233926);
+    // background-image: url();
+    background-image: url(https://images.pexels.com/photos/3759098/pexels-photo-3759098.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    // background-image: url(https://images.pexels.com/photos/3740290/pexels-photo-3740290.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom;
@@ -18,9 +22,10 @@ div.container {
     
     .title-1 {
         background-color: unset;
-        color: $color-9;
-        font-weight: 300;
+        color: $color-2;
+        font-weight: 500;
         font-size: 70px;
+        margin: 1rem 0;
     }
     h5 {
         color: $color-6;
@@ -30,41 +35,63 @@ div.container {
 .login-description {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
     .main-description {
         padding: 30px;
         background-color: whitesmoke;
-        width: 500px;
-        margin: 30px;
+        width: 55%;
+        margin: 20px;
+        h4 {
+            margin-bottom: 1.5rem;
+            color: $color-6;
+        }
+        p {
+            background-color: inherit;
+        }
     }
-    p {
-        background-color: inherit;
-    }
+    
+    
 }
 
 form {
-    margin: 20px;
-    padding: 4rem 0;
+    margin: 30px 0;
+    padding: 50px 0;
     color: $color-2;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     flex-direction: column;
-    h4 {
-        margin-bottom: 2.5rem;
-    }
+    width: 40%;
+
     .form-control {
         width: 340px;
+    }
+    .form-check-input {
+        margin-left: 0;
+    }
+    .form-check-label {
+        margin-left: 1.5rem;
     }
     .olvidaste-contraseña {
         margin-left: 1rem;
     }
     .btn-primary {
         width: 150px;
-        margin-top: 2rem;
+        margin-top: 1rem;
         background-color: $color-3;
         border: none;
     }
+    h4 {
+        margin-bottom: 1.5rem;
+        color: $color-5;
+        font-weight: 600;
+        font-size: 2rem;
+        margin-bottom: 2rem;
+    }
 }
+
+  
+
+
