@@ -16,12 +16,12 @@ const QuoteStart = () => {
                     <img src="https://i.pinimg.com/564x/c1/62/fd/c162fd3c80df85a1ad63e8757863da6a.jpg" class="card-img-top" alt="..." />
                     <div class="card-body">
                         <h5 class="card-title">Tarjetas de Presentación</h5>
-                        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                        <a href="#" class="btn btn-info">Go somewhere</a>
+                        <p class="card-text">Deja tu huella al hacer networking reflejando tu identidad y talento.</p>
+                        <a href="#" class="btn btn-info">Cotizar</a>
                     </div>
                 </div>
 
-                <div class="card">
+                <div class="card brochure-img">
                     <img src="https://i.pinimg.com/564x/bc/97/86/bc97868ab27caec12181f2f0cb6c03fa.jpg" class="card-img-top" alt="..." />
                 </div>
                 
@@ -29,20 +29,20 @@ const QuoteStart = () => {
                     <img src="https://i.pinimg.com/564x/c5/50/42/c550423d509ac4b730877704697b7544.jpg" class="card-img-top" alt="..." />
                     <div class="card-body">
                         <h5 class="card-title">Papeleria Corporativa</h5>
-                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        <a href="#" class="btn btn-info">Go somewhere</a>
+                        <p class="card-text">Nada más profesional para impactar que papeleria personalizada ¿Listo para cerrar el trato?</p>
+                        <a href="#" class="btn btn-info">Cotizar</a>
                     </div>
                 </div>
 
-                <div class="card">
+                <div class="card brochure-img">
                     <img src="https://i.pinimg.com/564x/79/b6/ac/79b6ac8b69b9c15ffb5ac7ca7c7cc402.jpg" class="card-img-top" alt="..." />
                 </div>
 
-                <div class="card">
+                <div class="card brochure-img">
                     <img src="https://i.pinimg.com/564x/f3/c2/df/f3c2dfee1ddd7ce63a42668d8006c59a.jpg" class="card-img-top" alt="..." />
                 </div>
 
-                <div class="card">
+                <div class="card brochure-img">
                     <img src="https://i.pinimg.com/564x/2a/50/ef/2a50ef4efbe5c6d068e854027eae3a28.jpg" class="card-img-top" alt="..." />
                 </div>
 
@@ -50,12 +50,12 @@ const QuoteStart = () => {
                     <img src="https://images.creativemarket.com/0.1.0/ps/2177310/910/607/m1/fpnw/wm0/moscovita-event-flyer-7-.jpg?1485282176&s=f30d9de4073732e4403c40e415da0af5" class="card-img-top" alt="..." />
                     <div class="card-body">
                         <h5 class="card-title">Brochures</h5>
-                        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                        <a href="#" class="btn btn-info">Go somewhere</a>
+                        <p class="card-text">¡Atrae aun mas clientes! La cantidad de tu negocio no estar en duda con estos acabados.</p>
+                        <a href="#" class="btn btn-info">Cotizar</a>
                     </div>
                 </div>
 
-                <div class="card">
+                <div class="card brochure-img">
                     <img src="https://i.pinimg.com/564x/dc/9d/eb/dc9deb5d24a413f524cb8e3ba4ad02e5.jpg" class="card-img-top" alt="..." />
                 </div>
 
@@ -64,7 +64,7 @@ const QuoteStart = () => {
                     <div class="card-body">
                         <h5 class="card-title">Posters</h5>
                         <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                        <a href="#" class="btn btn-info">Go somewhere</a>
+                        <a href="#" class="btn btn-info">Cotizar</a>
                     </div>
                 </div>
                 
@@ -73,11 +73,11 @@ const QuoteStart = () => {
                     <div class="card-body">
                         <h5 class="card-title">Tripticos</h5>
                         <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                        <a href="#" class="btn btn-info">Go somewhere</a>
+                        <a href="#" class="btn btn-info">Cotizar</a>
                     </div>
                 </div>
 
-                <div class="card">
+                <div class="card brochure-img">
                     <img src="https://i.pinimg.com/564x/c9/e1/69/c9e169f1ae59f7ecb83bdd7553f0b377.jpg" class="card-img-top" alt="..." />
                 </div>
                 
@@ -86,52 +86,15 @@ const QuoteStart = () => {
                     <div class="card-body">
                         <h5 class="card-title">Editorial</h5>
                         <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                        <a href="#" class="btn btn-info">Go somewhere</a>
+                        <a href="#" class="btn btn-info">Cotizar</a>
                     </div>
                 </div>
 
-                <div class="card">
+                <div class="card brochure-img">
                     <img src="https://i.pinimg.com/564x/b5/5d/a9/b55da97f7739e0949adc0743b8e42c45.jpg" class="card-img-top" alt="..." />
                 </div>
 
             </div>
-            {/* /Nuevo */}
-
-            {/* <div className="card my-5 QuoteStart__Option">
-                <div className="Option__Image">
-                    <img src="https://cdn.dribbble.com/users/1408866/screenshots/7903851/media/ee68a4f057437472689c9cd1bc1a64a6.jpg" className="card-img-top" alt="..."/>
-                </div>
-                <div className="card-body Option__Body">
-                    <h4 className="card-title">Tarjeta de presentacion</h4>
-                    <p className="card-text">Deja tu huella al hacer networking reflejando tu identidad y talento.</p>
-                    <a href="/PrintSystem" className="btn Option__Btn">
-                        Elegir
-                    </a>
-                </div>
-            </div>
-
-            <div className="card  my-5 QuoteStart__Option">
-                <div className="Option__Image">
-                    <img src="https://cdn.dribbble.com/users/1111995/screenshots/4165918/dribbble.png" className="card-img-top" alt="..."/>
-                </div>
-                <div className="card-body Option__Body">
-                    <h4 className="card-title">Volantes y folletos</h4>
-                    <p className="card-text">¡Atrae aun mas clientes! La cantidad de tu negocio no estar en duda con estos acabados.</p>
-                    <a href="/PrintSystem" className="btn Option__Btn">Elegir</a>
-                </div>
-            </div>
-
-            <div className="card  my-5 QuoteStart__Option">
-                <div className="Option__Image">
-                    <img src="https://www.colorhexa.com/2cc2d1.png" className="card-img-top" alt="..."/>
-                </div>
-
-                <div className="card-body Option__Body">
-                    <h4 className="card-title">Hojas membretadas</h4>
-                    <p className="card-text">Nada más profesional para impactar que papeleria personalizada ¿Listo para cerrar el trato?</p>
-                    <a href="/PrintSystem" className="btn Option__Btn">Elegir</a>
-                </div>
-            </div> */}
         </div>
     )
 }
