@@ -28,7 +28,7 @@ const quotMakerInfo = {
     },
 
 
-    system: { //Sistema de impresión
+    system: { //Sistema de impresión //Impresión
         step: 2,
         name: 'Sistema de impresión',
         title: 'Escoge el sistema de impresión',
@@ -56,7 +56,7 @@ const quotMakerInfo = {
         ]
     },
 
-    type: { //Caras de impresi´n
+    type: { //Caras de impresion // Caras
         step: 3,
         name: 'Caras de impresión',
         title: '¿En cuántas caras las necesitas?',
@@ -133,7 +133,7 @@ const quotMakerInfo = {
         ]
     },
 
-    paper: { //Tipo de Papel
+    paper: { //Tipo de Papel //Papel
         step: 6,
         name: 'Tipo de papel',
         title: 'Ahora escoge un papel que defina tu identidad',
