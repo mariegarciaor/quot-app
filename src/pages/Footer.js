@@ -20,6 +20,7 @@ const Footer = () => {
                         <a className="nav-link" href="#">Programa de lealtad</a>
                     </li>
                 </ul>
+                
                 <div className="social-media">
                     <Facebook />
                     <Instagram />

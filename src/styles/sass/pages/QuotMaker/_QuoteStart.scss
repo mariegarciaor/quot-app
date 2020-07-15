@@ -1,63 +1,49 @@
 /*QuoteMaker SCSS*/
-.quotemaker-container {
-	
-}
-
-
-.quot-maker-survey {
-
+.QuotemakerContainer {
+	margin-top: 5rem;
+	margin-bottom: 3rem;
 	height: fit-content;
 	padding: 20px;
+	.card {
+		border: 1px rgb(235, 235, 235) solid;
+	}
+	.QuoteStart {
+		&__Header {
+			margin-bottom: 4rem;
+		}
+	}
 }
 
-.QuoteStart{
-
-
-	&__Header {
-		margin-bottom: 20px;
-	}
-
-	.Header {
-		&__Step{
-			color: $color-3;
-			text-align: center;
-		}
-
-		&__Title {
-			text-align: center;
-			font-size: 18px;
-			width: 80%;
-			margin: auto;
-		}
-	}
-
-
-
-	&__Option {
-		position: relative;
-	}
-
-	.Option__Image{
-		img{
-			max-height: 200px;
-			object-fit: cover;
-		}
-	}
-
-	.Option__Body{
-		background-color: #E9E9E9;
+.Header {
+	&__Step {
+		color: $color-3;
 		text-align: center;
-		.card-text{
-			font-size: 12px;
-			text-align: center;
+		text-transform: uppercase;
+		font-size: 1.2rem;
+	}
+
+	&__Title {
+		text-align: center;
+		font-size: 1.8rem;
+		margin: auto;
+		color: $color-2;
+	}
+}
+
+	
+
+@media (max-width: 767px) {
+    /* Selectors and styles affecting screens UP TO 767px (Tablet) */
+	.card-columns {
+		padding: 1rem;
+		.brochure-img {
+			display: none;
 		}
 	}
 
-	.Option__Btn{
-		width: 50%;
-		max-width: 300px;
-		margin: auto;
-		background-color: $color-2;
-		color: white;
-	}
+
+}
+
+@media (max-width: 480px) {
+    /* Selectors and styles affecting screens UP TO 480px (Phone) */
 }
