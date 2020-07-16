@@ -1,7 +1,14 @@
-import React from 'react';
+import React, { useState } from 'react';
+import useForm from '../../hooks/useForm';
+import validate from '../../hooks/validateLogIn';
 import '../../styles/sass/main.css';
 
 const LogIn = () => {
+  const { handleChange, handleSubmit, values, errors } = useForm(submit, validate);
+
+  function submit() {
+    console.log('Submitted Succesfully');
+  }
 
     return (
       <div>
@@ -12,17 +19,35 @@ const LogIn = () => {
           </div>
         </div>
         <section className="container login-description">
-          <form>
+          <form onSubmit={handleSubmit} noValidate>
             <h4>Inicia sesión</h4>
             <div className="email form-group row">
               <div className="col-sm-10">
-                <input type="email" className="form-control" id="inputEmail3" placeholder="E-mail"/>
+                <input 
+                  name="email"
+                  type="email"
+                  className="form-control"
+                  id="inputEmail3"
+                  placeholder="E-mail"
+                  value={values.email}
+                  onChange={handleChange}
+                  />
+                {errors.email && <div className="alert alert-danger">{errors.email}</div>}
               </div>
             </div>
 
             <div className="password form-group row">
               <div className="col-sm-10">
-                <input type="password" className="form-control" id="inputPassword3" placeholder="Contraseña"/>
+                <input 
+                  name="password"
+                  type="password"
+                  className="form-control"
+                  id="inputPassword3"
+                  placeholder="Contraseña"
+                  value={values.password}
+                  onChange={handleChange}
+                  />
+                {errors.password && <div className="alert alert-danger">{errors.password}</div>}
               </div>
             </div>
 
@@ -40,7 +65,9 @@ const LogIn = () => {
             
             <div className="inicio form-group row">
               <div className="col-sm-10">
-                <a href="/QuoteStart" className="btn btn-primary">Iniciar sesión</a>
+                <button className="btn btn-primary button-1" type="submit">
+                <a href="/QuoteStart">Iniciar sesión</a>
+                </button>
               </div>
             </div>
 
@@ -55,7 +82,7 @@ const LogIn = () => {
         </section>
       </div>      
     )
-}
+};
 
 
 export default LogIn;
