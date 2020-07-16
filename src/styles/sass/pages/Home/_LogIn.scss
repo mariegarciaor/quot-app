@@ -80,8 +80,11 @@ form {
     .btn-primary {
         width: 150px;
         margin-top: 1rem;
-        background-color: $color-3;
+        background-color: $color-2;
         border: none;
+        a{
+            color: $color-7;
+        }
     }
     h4 {
         margin-bottom: 1.5rem;

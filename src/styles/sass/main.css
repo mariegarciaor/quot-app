@@ -77,11 +77,11 @@
 }
 
 .link-3:active {
-  color: #2e79ba;
+  color: #0386a7;
 }
 
 .link-3:hover {
-  color: #2e79ba;
+  color: #0386a7;
 }
 
 /*Measurements*/
@@ -119,15 +119,15 @@
 }
 
 .button-2:hover {
-  background-color: #2e79ba;
+  background-color: #0386a7;
 }
 
 .button-2:active {
-  background-color: #2e79ba;
+  background-color: #0386a7;
 }
 
 .button-2:focus {
-  background-color: #2e79ba;
+  background-color: #0386a7;
 }
 
 .button-3 {
@@ -157,6 +157,68 @@
 /*helpers*/
 /*layout*/
 /* Footer */
+.main-footer {
+  color: white;
+  background-color: #082848;
+  position: relative;
+  bottom: 0;
+  height: 100px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main-footer div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.main-footer .social-media {
+  width: 200px;
+}
+
+@media only screen and (max-width: 768px) {
+  .main-footer {
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  .main-footer ul {
+    width: 100%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: 20px 0;
+  }
+  .main-footer ul li {
+    text-align: center;
+  }
+  .main-footer .social-media {
+    width: 100%;
+    margin: 20px;
+  }
+}
+
 /* Global */
 * {
   margin: 0;
@@ -165,12 +227,519 @@
 }
 
 /* Navigation Bar */
+nav {
+  color: white;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  right: 0%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #2CD0D1;
+}
+
+nav ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+a.nav-link {
+  color: white;
+}
+
 /*Pages*/
 /*_Checkout*/
 /*Payment SCSS*/
+.checkout {
+  background-color: #53c7de;
+  color: #fff;
+  border-radius: 7px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container-fluid {
+  font-family: "Sarabun";
+}
+
+.form-control {
+  border: #53c7de 2px solid;
+  border-radius: 7px;
+}
+
+.form-check-input {
+  border: #53c7de 2px solid;
+}
+
+.btn {
+  background-color: #082848;
+  border-radius: #082848 2px solid;
+}
+
+.pDeclined__Header {
+  background-color: #53c7de;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  padding: 20px;
+}
+
+.pDeclined__Header h3 {
+  font-size: 14px;
+}
+
+.pDeclined__Body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 20px;
+}
+
+.pDeclined .Body__Image {
+  width: 80%;
+  margin: auto;
+}
+
+.pDeclined .Body__Tryagain {
+  background-color: #082848;
+  color: white;
+  padding: 10px;
+  margin: 15px auto 10px;
+  width: 80%;
+  border-radius: 10px;
+}
+
+.pDeclined .Body__Oxxopay {
+  color: #53c7de;
+  text-decoration: underline;
+  text-align: center;
+}
+
+.header {
+  font-family: "Sarabun";
+  background-color: #53c7de;
+  color: #fff;
+  border-radius: 7px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.body {
+  font-family: "Sarabun";
+  color: #666;
+  border-radius: 7px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+Link {
+  background-color: #082848;
+  border-radius: 7px;
+}
+
+.card-title {
+  color: #082848;
+  font-weight: 600;
+}
+
+.list-group1 {
+  border: #666 1px solid;
+  border-top: #53c7de 10px solid;
+  border-left: #666 1px solid;
+}
+
+.list-group {
+  border: #666 1px solid;
+  border-left: #666 1px solid;
+}
+
+.list-group-item {
+  border: #666 1px solid;
+  border-top: #53c7de 4px solid;
+  border-left: #666 1px solid;
+}
+
+.button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: #fff 1px solid;
+}
+
 /*_Home*/
+div.container {
+  padding: 0;
+}
+
+.login-cover {
+  background-color: transparent;
+  background-image: url(https://images.pexels.com/photos/3759098/pexels-photo-3759098.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  width: 100vw;
+  height: 90vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.login-cover .title-1 {
+  background-color: unset;
+  color: #082848;
+  font-weight: 500;
+  font-size: 70px;
+  margin: 1rem 0;
+}
+
+.login-cover h5 {
+  color: #666;
+}
+
+.login-description {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.login-description .main-description {
+  padding: 30px;
+  background-color: whitesmoke;
+  width: 55%;
+  margin: 20px;
+}
+
+.login-description .main-description h4 {
+  margin-bottom: 1.5rem;
+  color: #666;
+}
+
+.login-description .main-description p {
+  background-color: inherit;
+}
+
+form {
+  margin: 30px 0;
+  padding: 50px 0;
+  color: #082848;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 40%;
+}
+
+form .form-control {
+  width: 340px;
+}
+
+form .form-check-input {
+  margin-left: 0;
+}
+
+form .form-check-label {
+  margin-left: 1.5rem;
+}
+
+form .olvidaste-contraseña {
+  margin-left: 1rem;
+}
+
+form .btn-primary {
+  width: 150px;
+  margin-top: 1rem;
+  background-color: #082848;
+  border: none;
+}
+
+form .btn-primary a {
+  color: #fff;
+}
+
+form h4 {
+  margin-bottom: 1.5rem;
+  color: #0386a7;
+  font-weight: 600;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.wNew .Header__Title {
+  text-align: center;
+  font-size: 2em;
+  margin: 10px auto;
+}
+
+.wNew .Header__Image {
+  width: 80%;
+  margin: 10px auto;
+}
+
+.wNew .Header__Text {
+  text-align: center;
+  width: 60%;
+  margin: 5px auto 15px;
+  font-weight: 200;
+}
+
+.wNew__Bottom {
+  background-color: #53c7de;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  padding: 20px;
+}
+
+.wNew .Bottom__Register {
+  background-color: #082848;
+  color: white;
+}
+
+.wNew .Bottom__Invited {
+  text-decoration: underline;
+}
+
+.header {
+  background-color: #fff;
+  color: #082848;
+  font-weight: 600;
+}
+
+.col-12 {
+  background-color: #082848;
+  color: #fff;
+}
+
+.link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+p {
+  background-color: #fff;
+  color: #666;
+}
+
 /*_Orders*/
 /*Myorders SCSS*/
 /*_QuotMaker*/
+.quotmaker-division {
+  height: 100vh;
+}
+
+.quotmaker-division .progress {
+  height: 1.5rem;
+  margin-bottom: 4rem;
+}
+
+.quotmaker-division .progress .progress-bar {
+  width: 25%;
+  background-color: #53c7de;
+}
+
+.quotmaker-division .quotmaker-dashboard {
+  background-color: green;
+  margin: 0;
+  padding: 1.5rem;
+  height: 100vh;
+}
+
+.quotmaker-division .quotemaker-form {
+  background-color: blue;
+  height: 100vh;
+  margin: 0;
+}
+
+.quotmaker-division .quotemaker-form .card {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  border: 1px #ececec 236, 236, 236 solid;
+}
+
+.quotmaker-division .quotemaker-form .card .card-body {
+  background-color: whitesmoke;
+  border: inherit;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.quotmaker-division .quotemaker-form .card .card-body .card-content {
+  padding: 0 1.5rem;
+}
+
+.quotmaker-division .quotemaker-form .card .card-body .card-content .card-title {
+  margin: 1rem 0;
+  text-align: left;
+}
+
+.quotmaker-division .quotemaker-form .card .card-body .card-content .card-text {
+  background-color: transparent;
+  text-align: left;
+}
+
+.quotmaker-division .quotemaker-form .card .card-body .card-img {
+  width: 9rem;
+  height: 100%;
+  margin: 0;
+  background-image: url(https://www.creativefabrica.com/wp-content/uploads/2019/05/Printer-icon-by-hellopixelzstudio-580x386.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 /*QuoteMaker SCSS*/
+.QuotemakerContainer {
+  margin-top: 5rem;
+  margin-bottom: 3rem;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 20px;
+}
+
+.QuotemakerContainer .card {
+  border: 1px #ebebeb solid;
+}
+
+.QuotemakerContainer .QuoteStart__Header {
+  margin-bottom: 4rem;
+}
+
+.Header__Step {
+  color: #53c7de;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+}
+
+.Header__Title {
+  text-align: center;
+  font-size: 1.8rem;
+  margin: auto;
+  color: #082848;
+}
+
+@media (max-width: 767px) {
+  /* Selectors and styles affecting screens UP TO 767px (Tablet) */
+  .card-columns {
+    padding: 1rem;
+  }
+  .card-columns .brochure-img {
+    display: none;
+  }
+}
+
+@media (max-width: 480px) {
+  /* Selectors and styles affecting screens UP TO 480px (Phone) */
+}
 /*# sourceMappingURL=main.css.map */
