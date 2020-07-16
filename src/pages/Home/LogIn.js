@@ -54,7 +54,7 @@ const LogIn = () => {
             <div className="checkbox form-group row">
               <div className="form-check">
                 <input className="form-check-input" type="checkbox" id="gridCheck1"/>
-                <label className="form-check-label" for="gridCheck1">
+                <label className="form-check-label" Mfor="gridCheck1">
                   Recordar cuenta
                 </label>
               </div>
