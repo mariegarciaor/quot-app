@@ -624,7 +624,7 @@ p {
 /*Myorders SCSS*/
 /*_QuotMaker*/
 .quotmaker-division {
-  height: 100vh;
+  height: auto;
 }
 
 .quotmaker-division .progress {
@@ -637,20 +637,35 @@ p {
   background-color: #53c7de;
 }
 
-.quotmaker-division .quotmaker-dashboard {
-  background-color: green;
+.quotmaker-division .quotemaker {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
   margin: 0;
-  padding: 1.5rem;
-  height: 100vh;
+  padding: 2rem 0;
+  background-color: whitesmoke;
 }
 
-.quotmaker-division .quotemaker-form {
-  background-color: blue;
-  height: 100vh;
-  margin: 0;
+.quotmaker-division .quotemaker .quotmaker-sectionTitle {
+  text-align: center;
+  margin-bottom: 2rem;
 }
 
-.quotmaker-division .quotemaker-form .card {
+.quotmaker-division .quotemaker .quotemaker-form {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 0 2rem;
+}
+
+.quotmaker-division .quotemaker .quotemaker-form .card:focus-within {
+  -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  -webkit-transition: 0s ease-in-out;
+  transition: 0s ease-in-out;
+}
+
+.quotmaker-division .quotemaker .quotemaker-form .card {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
@@ -658,43 +673,41 @@ p {
   height: -moz-fit-content;
   height: fit-content;
   border: 1px #ececec 236, 236, 236 solid;
+  background-color: white;
 }
 
-.quotmaker-division .quotemaker-form .card .card-body {
-  background-color: whitesmoke;
-  border: inherit;
-  padding: 0;
+.quotmaker-division .quotemaker .quotemaker-form .card .card-img-top {
+  height: 10rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.quotmaker-division .quotemaker .quotemaker-form .card .card-body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
+  -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border: none;
 }
 
-.quotmaker-division .quotemaker-form .card .card-body .card-content {
-  padding: 0 1.5rem;
-}
-
-.quotmaker-division .quotemaker-form .card .card-body .card-content .card-title {
+.quotmaker-division .quotemaker .quotemaker-form .card .card-body .quotemaker-cardtitle {
   margin: 1rem 0;
-  text-align: left;
 }
 
-.quotmaker-division .quotemaker-form .card .card-body .card-content .card-text {
+.quotmaker-division .quotemaker .quotemaker-form .card .card-body .card-text {
   background-color: transparent;
-  text-align: left;
 }
 
-.quotmaker-division .quotemaker-form .card .card-body .card-img {
-  width: 9rem;
-  height: 100%;
-  margin: 0;
-  background-image: url(https://www.creativefabrica.com/wp-content/uploads/2019/05/Printer-icon-by-hellopixelzstudio-580x386.jpg);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
+.quotmaker-division .quotemaker .quotmaker-nextButton {
+  text-align: center;
+}
+
+.quotmaker-division .quotemaker .quotmaker-nextButton button {
+  width: 10rem;
+  margin: .5rem;
 }
 
 /*QuoteMaker SCSS*/
