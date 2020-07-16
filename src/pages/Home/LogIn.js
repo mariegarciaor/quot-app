@@ -65,9 +65,11 @@ const LogIn = () => {
             
             <div className="inicio form-group row">
               <div className="col-sm-10">
-                <button className="btn btn-primary button-1" type="submit">
-                <a href="/QuoteStart">Iniciar sesión</a>
-                </button>
+                <a href="/QuoteStart">
+                  <button className="btn btn-primary button-1" type="submit" onClick={handleSubmit}>
+                  Log In
+                  </button>
+                </a>
               </div>
             </div>
 

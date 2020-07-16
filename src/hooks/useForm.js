@@ -1,22 +1,27 @@
+import React from 'react';
 import { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 
 const useForm = (callback, validate) => {
     const [values, setValues] = useState({ email:"", password:"" });
     const [errors, setErrors] = useState({});
     const [isSubmitting, setIsSubmitting] = useState(false);
 
-    const handleChange = event => {
-        const { name, value } = event.target;
+    const handleChange = (e) => {
+        const { name, value } = e.target;
         setValues({
         ...values,
         [name]: value
         });
     };
 
-    const handleSubmit = event => {
-        event.preventDefault();
-        setErrors(validate(values));
-        setIsSubmitting(true);
+    const handleSubmit = (e) => {
+        e.preventDefault();
+        if(setErrors(validate(values)) && setIsSubmitting(true)) {
+            return (
+                <Link to="/QuoteStart" />
+            )
+        }
     };
 
     useEffect(() => {
