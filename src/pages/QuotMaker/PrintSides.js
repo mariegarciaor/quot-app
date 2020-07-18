@@ -39,12 +39,6 @@ const PrintSides = () => {
                 </div>
             </div>
 
-            <a href="/PrintQuantity" class="btn btn-primary">Siguiente</a>
-
-            {/* style="width: 30%;" */}
-            <div class="progress">
-                <div class="progress-bar" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">30%</div>
-            </div>
         </div>
     )
 }

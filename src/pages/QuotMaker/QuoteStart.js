@@ -4,13 +4,6 @@ const QuoteStart = () => {
 
     return (
         <div className="container QuotemakerContainer">
-            <div className="QuoteStart__Header">
-                <h6 className="Header__Step"> Paso 1 </h6>
-                <h1 className="Header__Title">
-                    ¿Qué servicio te gustaría cotizar?
-                </h1>
-            </div>
-
             <div className="card-columns">
                 <div className="card">
                     <img src="https://i.pinimg.com/564x/c1/62/fd/c162fd3c80df85a1ad63e8757863da6a.jpg" className="card-img-top" alt="..." />

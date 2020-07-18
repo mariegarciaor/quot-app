@@ -703,6 +703,7 @@ p {
 
 .quotmaker-division .quotemaker .quotmaker-nextButton {
   text-align: center;
+  background-color: red;
 }
 
 .quotmaker-division .quotemaker .quotmaker-nextButton button {
