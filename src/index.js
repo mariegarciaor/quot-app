@@ -5,7 +5,6 @@ import 'bootstrap/dist/css/bootstrap.css';
 import './styles/sass/main.scss'
 import App from "./App";
 
-
 const container = document.getElementById('root');
 
 ReactDOM.render(<App />, container);
