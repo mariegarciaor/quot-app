@@ -11,13 +11,13 @@ const Footer = () => {
             <div className="container">
                 <ul className="nav justify-content-end">
                     <li className="nav-item">
-                        <a className="nav-link active" href="#">Contáctanos</a>
+                        <a className="nav-link active" href="/ComingSoon">Contáctanos</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="#">Facturación</a>
+                        <a className="nav-link" href="/ComingSoon">Facturación</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="#">Programa de lealtad</a>
+                        <a className="nav-link" href="/ComingSoon">Programa de lealtad</a>
                     </li>
                 </ul>
                 
