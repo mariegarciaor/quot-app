@@ -1,6 +1,6 @@
 import React from "react";
-import quotMakerInfo from './Options'
 import {Route, Link} from "react-router-dom";
+
 import QuoteStart from './QuoteStart'
 import PrintSystem from './PrintSystem'
 import PrintSides from './PrintSides'
@@ -14,8 +14,6 @@ const QuotMaker = (props) => {
     const match = props.match 
     const nextStep = !match.params.step? '1':'2'
     const previousStep = !match.params.step? '2':'1'
-
-    const servicio = quotMakerInfo.system
 
     console.log('props: ', props)
     return (
