@@ -7,7 +7,8 @@
     justify-content: center;
     align-items: center;
     // background-image: url(https://i.pinimg.com/originals/15/0d/58/150d582de1229a08a1b907fc73cf9533.jpg);
-    background-image: url(https://helpx.adobe.com/content/dam/help/en/indesign/how-to/business-card-design/_jcr_content/main-pars/image_1047841121/business-card-design_1408x792.jpg);
+    background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/1400_opt_1/cea20527601265.56456ee4b736b.png);
+    // background-image: url(https://helpx.adobe.com/content/dam/help/en/indesign/how-to/business-card-design/_jcr_content/main-pars/image_1047841121/business-card-design_1408x792.jpg);
     // background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/1400/f7e72b52114415.5a24a47492e5a.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -17,16 +18,19 @@
     background-color: rgba(255, 255, 255, 0.959);
     padding: 50px;
     text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
     #welcomeuser-img {
-        width: 100px;
+        width: 150px;
         margin-bottom: 20px;
     }
     .buttom-cotizar {
         color: white;
-        margin-top: 40px;
+        margin-top: 10px;
         width: 200px;
     }
     p {
+        margin-top: 20px;
         background-color: unset;
         color: $color-6;
     }

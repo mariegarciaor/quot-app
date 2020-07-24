@@ -430,12 +430,12 @@ div.container {
 
 .login-cover {
   background-color: transparent;
-  background-image: url(https://images.pexels.com/photos/3759098/pexels-photo-3759098.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/1400_opt_1/4bbe0089668085.5dfbf2be226b3.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom;
   width: 100vw;
-  height: 90vh;
+  height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -453,19 +453,10 @@ div.container {
       flex-wrap: wrap;
 }
 
-.login-cover .title-1 {
-  background-color: unset;
-  color: #082848;
-  font-weight: 500;
-  font-size: 70px;
-  margin: 1rem 0;
-}
-
-.login-cover h5 {
-  color: #666;
-}
-
 .login-description {
+  background-color: rgba(255, 255, 255, 0.986);
+  border-radius: 1rem;
+  padding: 40px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -481,27 +472,14 @@ div.container {
           align-items: center;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-}
-
-.login-description .main-description {
-  padding: 30px;
-  background-color: whitesmoke;
-  width: 55%;
-  margin: 20px;
-}
-
-.login-description .main-description h4 {
-  margin-bottom: 1.5rem;
-  color: #666;
-}
-
-.login-description .main-description p {
-  background-color: inherit;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  -webkit-box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+          box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
 
 form {
-  margin: 30px 0;
-  padding: 50px 0;
   color: #082848;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -551,7 +529,6 @@ form h4 {
   color: #0386a7;
   font-weight: 600;
   font-size: 2rem;
-  margin-bottom: 2rem;
 }
 
 .wNew .Header__Title {
@@ -588,18 +565,11 @@ form h4 {
   text-decoration: underline;
 }
 
-.header {
-  background-color: #fff;
-  color: #082848;
-  font-weight: 600;
-}
-
-.col-12 {
-  background-color: #082848;
-  color: #fff;
-}
-
-.link {
+.welcome-container {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -609,15 +579,39 @@ form h4 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/1400_opt_1/cea20527601265.56456ee4b736b.png);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
-p {
-  background-color: #fff;
+.welcome-content {
+  background-color: rgba(255, 255, 255, 0.959);
+  padding: 50px;
+  text-align: center;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+          box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.welcome-content #welcomeuser-img {
+  width: 150px;
+  margin-bottom: 20px;
+}
+
+.welcome-content .buttom-cotizar {
+  color: white;
+  margin-top: 10px;
+  width: 200px;
+}
+
+.welcome-content p {
+  margin-top: 20px;
+  background-color: unset;
   color: #666;
+}
+
+.welcome-content #revisar-pedidos {
+  margin: 10px;
 }
 
 /*_Orders*/
@@ -755,5 +749,43 @@ p {
 
 @media (max-width: 480px) {
   /* Selectors and styles affecting screens UP TO 480px (Phone) */
+}
+
+.coming-soon {
+  background-color: #F3F5F8;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.coming-soon .description {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin: 50px;
+  text-align: center;
+}
+
+.coming-soon .description h1 {
+  color: #082848;
+}
+
+.coming-soon .description h5 {
+  color: #53c7de;
+}
+
+.coming-soon #comingsoon-cover {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 /*# sourceMappingURL=main.css.map */

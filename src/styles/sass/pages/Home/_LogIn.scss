@@ -4,58 +4,38 @@ div.container {
 
 .login-cover {
     background-color: transparent;
-    // background-image: url();
-    background-image: url(https://images.pexels.com/photos/3759098/pexels-photo-3759098.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    // background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/7631ff94721811.5e85dc7bb7e11.png);
+    // background-image: url(https://cdn.dribbble.com/users/1048838/screenshots/4923148/attachments/1103961/agnieszka-jucha-dribbble-2.jpg);
+    // background-image: url(https://pro2-bar-s3-cdn-cf6.myportfolio.com/7aaf8a61812c8e39cef30565c59ac92a/7e301484a0a87bb36bfbe3b2_rw_1920.png?h=a008ca4bbc36869ad6af9e8aa25462f7);
+    // background-image: url(https://images.pexels.com/photos/3759098/pexels-photo-3759098.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
     // background-image: url(https://images.pexels.com/photos/3740290/pexels-photo-3740290.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/1400_opt_1/4bbe0089668085.5dfbf2be226b3.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom;
     width: 100vw;
-    height: 90vh;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: flex-start;
     flex-direction: column;
     flex-wrap: wrap;
-    
-    .title-1 {
-        background-color: unset;
-        color: $color-2;
-        font-weight: 500;
-        font-size: 70px;
-        margin: 1rem 0;
-    }
-    h5 {
-        color: $color-6;
-    }
 }
-
+ 
 .login-description {
+    background-color: rgba(255, 255, 255, 0.986);
+    border-radius: 1rem;
+    padding: 40px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    .main-description {
-        padding: 30px;
-        background-color: whitesmoke;
-        width: 55%;
-        margin: 20px;
-        h4 {
-            margin-bottom: 1.5rem;
-            color: $color-6;
-        }
-        p {
-            background-color: inherit;
-        }
-    }
-    
-    
+    width: max-content;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22)
 }
 
 form {
-    margin: 30px 0;
-    padding: 50px 0;
     color: $color-2;
     display: flex;
     justify-content: center;
@@ -89,7 +69,6 @@ form {
         color: $color-5;
         font-weight: 600;
         font-size: 2rem;
-        margin-bottom: 2rem;
     }
 }
 
