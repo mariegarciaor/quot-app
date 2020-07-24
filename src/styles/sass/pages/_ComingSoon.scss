@@ -1,1 +1,26 @@
+.coming-soon {
+    background-color: #F3F5F8;
+    // background-color: #FDFDFD;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    .description {
+        height: fit-content;
+        margin: 50px;
+        text-align: center;
+        h1 {
+            color: $color-2;
+        }
+        h5 {
+            color: $color-3;
+        }
+    }
+    #comingsoon-cover {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+}
+
 
