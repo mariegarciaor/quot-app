@@ -19,9 +19,9 @@ const QuotMaker = (props) => {
     return (
         <div className="container quotmaker-division QuotemakerContainer">
             <div className="QuoteStart__Header">
-                <h6 className="Header__Step"> Paso 2 </h6>
+                <h6 className="Header__Step"> Paso 1 </h6>
                 <h1 className="Header__Title">
-                    Ingresa las caracteristicas de tu producto
+                    ¿Qué producto te gustaría cotizar?
                 </h1>
             </div>
             <div class="progress">
