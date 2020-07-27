@@ -17,7 +17,7 @@ const PrintShipping = () => {
             </div>
             
             <div className="printSteps-container">
-                <div class="row row-cols-1 row-cols-md-3 quotemaker-form">
+                <div class="row quotemaker-form">
                     <div class="col">
                         <div class="quotemarkerCard card">
                             <img src="https://i.pinimg.com/564x/25/a1/26/25a126dae6ccc394230c2e14d4ff99a0.jpg" class="card-img-top" alt="..."/>
