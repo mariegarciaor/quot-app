@@ -45,7 +45,15 @@
     .quotemaker-form {
         height: fit-content;
         display: flex;
+        justify-content: space-around;
+        align-items: center;
         flex-wrap: wrap;
+        .col {
+            width: fit-content;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
         .card:focus-within {
             // border: 5px solid red;
             box-shadow: 0 5px 15px rgba(0,0,0,0.3);

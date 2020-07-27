@@ -18,13 +18,13 @@ const PrintPaper = () => {
             </div>
             
             <div className="printSteps-container">
-                <div class="row row-cols-1 row-cols-md-3 quotemaker-form">
+                <div class="row quotemaker-form">
                     <div class="col">
                         <div class="quotemarkerCard card">
                             <img src="https://i.pinimg.com/564x/25/a1/26/25a126dae6ccc394230c2e14d4ff99a0.jpg" class="card-img-top" alt="..."/>
                             <div class="card-body">
-                                <h5 class="card-title quotemaker-cardtitle">Card title</h5>
-                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                <h5 class="card-title quotemaker-cardtitle">Couché</h5>
+                                <p class="card-text">Papel súper suave, súper blanco y sin poros ;)</p>
                                 <a href="#" class="stretched-link"></a>
                             </div>
                         </div>
@@ -33,8 +33,8 @@ const PrintPaper = () => {
                         <div class="card">
                             <img src="https://i.pinimg.com/564x/2a/32/ff/2a32ffa4caa8e04dbd0680022720245d.jpg" class="card-img-top" alt="..."/>
                             <div class="card-body">
-                                <h5 class="card-title quotemaker-cardtitle">Card title</h5>
-                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                <h5 class="card-title quotemaker-cardtitle">Opalina</h5>
+                                <p class="card-text">Si buscar un acabado suave y moderno ¡Esta es tu opción!</p>
                                 <a href="#" class="stretched-link"></a>
                             </div>
                         </div>
@@ -43,8 +43,8 @@ const PrintPaper = () => {
                         <div class="card">
                             <img src="https://i.pinimg.com/564x/0b/20/3d/0b203da05883d6989c2583484bf84b67.jpg" class="card-img-top" alt="..."/>
                             <div class="card-body">
-                                <h5 class="card-title quotemaker-cardtitle">Card title</h5>
-                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                                <h5 class="card-title quotemaker-cardtitle">Sulfatado</h5>
+                                <p class="card-text">¡Tan brillante y duradera que no podrás escribir en ellas! O:</p>
                                 <a href="#" class="stretched-link"></a>
                             </div>
                         </div>

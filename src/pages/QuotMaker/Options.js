@@ -27,7 +27,7 @@ const quotMakerInfo = {
         ]
     },
 
-
+ 
     system: { //Sistema de impresión //PrintSystem
         step: 2,
         name: 'Sistema de impresión',
@@ -55,7 +55,7 @@ const quotMakerInfo = {
             }
         ]
     },
-
+ 
     type: { //Caras de impresion //PrintSides
         step: 3,
         name: 'Caras de impresión',
