@@ -1,5 +1,5 @@
 const quotMakerInfo = {
-    service: {
+    service: { //QuoteStart
         step: 1,
         name: 'Servicio de impresión',
         title: '¿Qué servicio te gustaría cotizar?',
@@ -28,7 +28,7 @@ const quotMakerInfo = {
     },
 
 
-    system: { //Sistema de impresión //Impresión
+    system: { //Sistema de impresión //PrintSystem
         step: 2,
         name: 'Sistema de impresión',
         title: 'Escoge el sistema de impresión',
@@ -56,7 +56,7 @@ const quotMakerInfo = {
         ]
     },
 
-    type: { //Caras de impresion // Caras
+    type: { //Caras de impresion //PrintSides
         step: 3,
         name: 'Caras de impresión',
         title: '¿En cuántas caras las necesitas?',
@@ -77,7 +77,7 @@ const quotMakerInfo = {
         ]
     },
 
-    quantity: { //Cantidad
+    quantity: { //Cantidad //PrintQuantity
         step: 4,
         name: 'Cantidad',
         title: '¿Cuántas tarjetas necesitas?',
@@ -105,7 +105,7 @@ const quotMakerInfo = {
         ]  
     },
 
-    finish: { //Terminado
+    finish: { //Terminado //PrintFinish
         step: 5,
         name: 'Terminado',
         title: '¿Qué terminado te gustaría?',
@@ -133,7 +133,7 @@ const quotMakerInfo = {
         ]
     },
 
-    paper: { //Tipo de Papel //Papel
+    paper: { //Tipo de Papel //PrintPaper
         step: 6,
         name: 'Tipo de papel',
         title: 'Ahora escoge un papel que defina tu identidad',
@@ -161,7 +161,7 @@ const quotMakerInfo = {
         ]
     },
 
-    design: { //Diseño
+    design: { //Diseño //PrintDesign
         step: 7,
         name: 'Diseño',
         title: '¿Cuentas con un diseño de tus tarjetas?',
