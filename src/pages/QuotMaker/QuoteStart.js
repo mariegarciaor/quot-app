@@ -61,7 +61,7 @@ const QuoteStart = () => {
                 <div className="card brochure-img">
                     <img src="https://i.pinimg.com/564x/dc/9d/eb/dc9deb5d24a413f524cb8e3ba4ad02e5.jpg" className="card-img-top" alt="..." />
                 </div>
-
+ 
                 <div className="card">
                     <img src="https://i.pinimg.com/564x/0f/cc/e5/0fcce58280ac2aa43323793d8b0a0500.jpg" className="card-img-top" alt="..." />
                     <div className="card-body">

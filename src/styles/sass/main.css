@@ -191,6 +191,7 @@
 
 .main-footer .social-media {
   width: 200px;
+  margin: 0 20px;
 }
 
 @media only screen and (max-width: 768px) {
