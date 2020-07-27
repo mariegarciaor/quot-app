@@ -3,13 +3,15 @@ import "../styles/sass/main.css";
 
 const ComingSoon = () => {
   return (
-    <div class="container">
+    <div class="container-fluid">
       <div class="coming-soon">
         <div class="description">
           <h1>Coming Soon</h1>
           <h5>Esta página estará disponible próximamente ;)</h5>
         </div>
-        <img id="comingsoon-cover" src="https://ojalaleguste.files.wordpress.com/2016/10/img_0826.gif"></img>
+        <figure>
+          <img id="comingsoon-cover" src="https://ojalaleguste.files.wordpress.com/2016/10/img_0826.gif"></img>
+        </figure>
         {/* <img id="comingsoon-cover" src="https://4.bp.blogspot.com/-45yzaGjvO-M/WqgF6COPlwI/AAAAAAAAVVE/-_odwHOQr8ASgvgTWPLcvJOGv7Si4oS4QCPcBGAYYCw/s1600/launching-rocket-dribbble.gif"></img> */}
       </div>
       {/* <div>

@@ -26,6 +26,7 @@ import OrderDetails from "./pages/Orders/OrderDetails";
 
 /*QuotMaker*/
 import QuotMaker from "./pages/QuotMaker/QuotMaker";
+import QuoteStart from "./pages/QuotMaker/QuoteStart";
 
 function App() {
 
@@ -46,8 +47,8 @@ function App() {
                 <Route exact path="/WelcomeUser" component={WelcomeUser} />
                 <Route exact path="/MyOrders" component={MyOrders} />
                 <Route exact path="/OrderDetails" component={OrderDetails} />
-
-                <Route exact path="/QuotMaker/:step?" component={QuotMaker} />
+                <Route exact path="/QuotStart" component={QuoteStart} />
+                <Route exact path="/QuotMaker" component={QuotMaker} />
                 <Route exact path="/ComingSoon" component={ComingSoon} />
               </Switch>
             </Layout>

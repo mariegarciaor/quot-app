@@ -1,16 +1,26 @@
 import React from 'react';
+import QuotMaker from './QuotMaker';
+import {Link} from "react-router-dom";
 
 const QuoteStart = () => {
 
     return (
         <div className="container QuotemakerContainer">
+
+            <div className="QuoteStart__Header">
+                <h6 className="Header__Step">Bienvenido</h6>
+                <h1 className="Header__Title">
+                    ¿Qué servicio te gustaría cotizar?  
+                </h1>
+            </div>
+
             <div className="card-columns">
                 <div className="card">
                     <img src="https://i.pinimg.com/564x/c1/62/fd/c162fd3c80df85a1ad63e8757863da6a.jpg" className="card-img-top" alt="..." />
                     <div className="card-body">
                         <h5 className="card-title">Tarjetas de Presentación</h5>
                         <p className="card-text">Deja tu huella al hacer networking reflejando tu identidad y talento.</p>
-                        <a href="#" className="btn btn-info">Cotizar</a>
+                        <Link to={'/QuotMaker'}><button type="button" class="btn btn-info">Cotizar</button></Link>
                     </div>
                 </div>
 
@@ -23,7 +33,7 @@ const QuoteStart = () => {
                     <div className="card-body">
                         <h5 className="card-title">Papeleria Corporativa</h5>
                         <p className="card-text">Nada más profesional para impactar que papeleria personalizada ¿Listo para cerrar el trato?</p>
-                        <a href="#" className="btn btn-info">Cotizar</a>
+                        <Link to={'/QuotMaker'}><button type="button" class="btn btn-info">Cotizar</button></Link>
                     </div>
                 </div>
 
@@ -44,7 +54,7 @@ const QuoteStart = () => {
                     <div className="card-body">
                         <h5 className="card-title">Brochures</h5>
                         <p className="card-text">¡Atrae aun mas clientes! La cantidad de tu negocio no estar en duda con estos acabados.</p>
-                        <a href="#" className="btn btn-info">Cotizar</a>
+                        <Link to={'/QuotMaker'}><button type="button" class="btn btn-info">Cotizar</button></Link>
                     </div>
                 </div>
 
@@ -57,7 +67,7 @@ const QuoteStart = () => {
                     <div className="card-body">
                         <h5 className="card-title">Posters</h5>
                         <p className="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                        <a href="#" className="btn btn-info">Cotizar</a>
+                        <Link to={'/QuotMaker'}><button type="button" class="btn btn-info">Cotizar</button></Link>
                     </div>
                 </div>
                 
@@ -66,7 +76,7 @@ const QuoteStart = () => {
                     <div className="card-body">
                         <h5 className="card-title">Tripticos</h5>
                         <p className="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                        <a href="#" className="btn btn-info">Cotizar</a>
+                        <Link to={'/QuotMaker'}><button type="button" class="btn btn-info">Cotizar</button></Link>
                     </div>
                 </div>
 
@@ -79,7 +89,7 @@ const QuoteStart = () => {
                     <div className="card-body">
                         <h5 className="card-title">Editorial</h5>
                         <p className="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                        <a href="#" className="btn btn-info">Cotizar</a>
+                        <Link to={'/QuotMaker'}><button type="button" class="btn btn-info">Cotizar</button></Link>
                     </div>
                 </div>
 

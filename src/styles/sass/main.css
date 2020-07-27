@@ -617,66 +617,64 @@ form h4 {
 /*_Orders*/
 /*Myorders SCSS*/
 /*_QuotMaker*/
-.quotmaker-division {
-  height: auto;
-}
-
-.quotmaker-division .progress {
+.progress {
   height: 1.5rem;
-  margin-bottom: 4rem;
+  margin: 1rem 0;
 }
 
-.quotmaker-division .progress .progress-bar {
+.progress .progress-bar {
   width: 25%;
   background-color: #53c7de;
 }
 
-.quotmaker-division .quotemaker {
+.quotemaker {
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
-  margin: 0;
+  margin: 20px;
   padding: 2rem 0;
   background-color: whitesmoke;
 }
 
-.quotmaker-division .quotemaker .quotmaker-sectionTitle {
+.quotemaker .quotmaker-sectionTitle {
   text-align: center;
   margin-bottom: 2rem;
 }
 
-.quotmaker-division .quotemaker .quotemaker-form {
+.quotemaker .quotemaker-form {
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
   padding: 0 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
-.quotmaker-division .quotemaker .quotemaker-form .card:focus-within {
+.quotemaker .quotemaker-form .card:focus-within {
   -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
           box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
   -webkit-transition: 0s ease-in-out;
   transition: 0s ease-in-out;
 }
 
-.quotmaker-division .quotemaker .quotemaker-form .card {
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  height: -webkit-fit-content;
-  height: -moz-fit-content;
-  height: fit-content;
+.quotemaker .quotemaker-form .card {
+  width: 300px;
+  height: 350px;
   border: 1px #ececec 236, 236, 236 solid;
   background-color: white;
+  margin: 10px;
 }
 
-.quotmaker-division .quotemaker .quotemaker-form .card .card-img-top {
+.quotemaker .quotemaker-form .card .card-img-top {
   height: 10rem;
   -o-object-fit: cover;
      object-fit: cover;
 }
 
-.quotmaker-division .quotemaker .quotemaker-form .card .card-body {
+.quotemaker .quotemaker-form .card .card-body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -687,20 +685,19 @@ form h4 {
   border: none;
 }
 
-.quotmaker-division .quotemaker .quotemaker-form .card .card-body .quotemaker-cardtitle {
+.quotemaker .quotemaker-form .card .card-body .quotemaker-cardtitle {
   margin: 1rem 0;
 }
 
-.quotmaker-division .quotemaker .quotemaker-form .card .card-body .card-text {
+.quotemaker .quotemaker-form .card .card-body .card-text {
   background-color: transparent;
 }
 
-.quotmaker-division .quotemaker .quotmaker-nextButton {
+.quotemaker .quotmaker-nextButton {
   text-align: center;
-  background-color: red;
 }
 
-.quotmaker-division .quotemaker .quotmaker-nextButton button {
+.quotemaker .quotmaker-nextButton button {
   width: 10rem;
   margin: .5rem;
 }
@@ -751,6 +748,10 @@ form h4 {
   /* Selectors and styles affecting screens UP TO 480px (Phone) */
 }
 
+.container-fluid {
+  padding: 0;
+}
+
 .coming-soon {
   background-color: #F3F5F8;
   display: -webkit-box;
@@ -767,10 +768,10 @@ form h4 {
 }
 
 .coming-soon .description {
-  height: -webkit-fit-content;
-  height: -moz-fit-content;
-  height: fit-content;
-  margin: 50px;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  margin: 50px 50px 0;
   text-align: center;
 }
 
@@ -782,10 +783,19 @@ form h4 {
   color: #53c7de;
 }
 
-.coming-soon #comingsoon-cover {
-  height: 100%;
-  width: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+.coming-soon figure #comingsoon-cover {
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  width: auto;
+}
+
+@media only screen and (max-width: 600px) {
+  .coming-soon img#comingsoon-cover {
+    width: 95vw;
+    height: auto;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
 }
 /*# sourceMappingURL=main.css.map */

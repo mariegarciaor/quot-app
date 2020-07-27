@@ -1,62 +1,60 @@
-.quotmaker-division {
-    height: auto;
-    .progress {
-        height: 1.5rem;
-        margin-bottom: 4rem;
-        .progress-bar {
-            width: 25%;
-            background-color: $color-3;
-        }
+.progress {
+    height: 1.5rem;
+    margin: 1rem 0;
+    .progress-bar {
+        width: 25%;
+        background-color: $color-3;
     }
+}
 
-    .quotemaker {
+.quotemaker {
+    height: fit-content;
+    margin: 20px;
+    padding: 2rem 0;
+    background-color: whitesmoke;
+    .quotmaker-sectionTitle {
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+    .quotemaker-form {
         height: fit-content;
-        margin: 0;
-        padding: 2rem 0;
-        background-color: whitesmoke;
-        .quotmaker-sectionTitle {
-            text-align: center;
-            margin-bottom: 2rem;
+        padding: 0 2rem;
+        display: flex;
+        flex-wrap: wrap;
+        .card:focus-within {
+            // border: 5px solid red;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+            transition: 0s ease-in-out;
         }
-        .quotemaker-form {
-            height: fit-content;
-            padding: 0 2rem;
-            .card:focus-within {
-                // border: 5px solid red;
-                box-shadow: 0 5px 15px rgba(0,0,0,0.3);
-                transition: 0s ease-in-out;
+        .card {
+            width: 300px;
+            height: 350px;
+            border: 1px #ececec(236, 236, 236) solid;
+            background-color: white;
+            margin: 10px;
+            .card-img-top {
+                height: 10rem;
+                object-fit: cover;
             }
-            .card {
-                width: fit-content;
-                height: fit-content;
-                border: 1px #ececec(236, 236, 236) solid;
-                background-color: white;
-                
-                .card-img-top {
-                    height: 10rem;
-                    object-fit: cover;
+            .card-body {
+                display: flex;
+                flex-direction: column;
+                border: none;
+                .quotemaker-cardtitle {
+                    margin: 1rem 0;
                 }
-                .card-body {
-                    display: flex;
-                    flex-direction: column;
-                    border: none;
-                    .quotemaker-cardtitle {
-                        margin: 1rem 0;
-                    }
-                    .card-text {
-                        background-color: transparent;
-                    }
+                .card-text {
+                    background-color: transparent;
                 }
             }
-  
         }
-        .quotmaker-nextButton {
-            text-align: center;
-            background-color: red;
-            button {
-                width: 10rem;
-                margin: .5rem;
-            }
+
+    }
+    .quotmaker-nextButton {
+        text-align: center;
+        button {
+            width: 10rem;
+            margin: .5rem;
         }
     }
 }
