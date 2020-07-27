@@ -8,7 +8,7 @@ const Footer = () => {
 
     return (
         <footer className="main-footer">
-            <div className="container">
+            <div className="container-fluid">
                 <ul className="nav justify-content-end">
                     <li className="nav-item">
                         <a className="nav-link active" href="/ComingSoon">Contáctanos</a>

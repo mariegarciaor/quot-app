@@ -6,7 +6,7 @@ const PrintSystem = () => {
             <div className="QuoteStart__Header">
                 <h6 className="Header__Step">Paso 1</h6>
                 <h1 className="Header__Title">
-                    ¿Qué producto te gustaría cotizar?
+                    Selecciona un sistema de impresión
                 </h1>
             </div>
 
