@@ -96,19 +96,22 @@
 .button-1 {
   background-color: #082848;
   border: #082848;
-  border-radius: 0.75rem;
+  border-radius: 1;
+  color: white;
+  height: 2.5rem;
 }
 
 .button-1:hover {
-  background-color: #082848;
+  background-color: #0386a7;
+  color: white;
 }
 
 .button-1:active {
-  background-color: #082848;
+  background-color: #0386a7;
 }
 
 .button-1:focus {
-  background-color: #082848;
+  background-color: #0386a7;
 }
 
 .button-2 {
@@ -149,6 +152,28 @@
 
 .button-3:focus {
   background-color: #fff;
+  color: #000;
+}
+
+.button-4 {
+  background-color: #666;
+  color: white;
+  border-radius: 1;
+  height: 2.5rem;
+}
+
+.button-4:hover {
+  background-color: #0386a7;
+  color: white;
+}
+
+.button-4:active {
+  background-color: #0386a7;
+  color: #000;
+}
+
+.button-4:focus {
+  background-color: #0386a7;
   color: #000;
 }
 
@@ -293,11 +318,6 @@ a.nav-link {
 
 .form-check-input {
   border: #53c7de 2px solid;
-}
-
-.btn {
-  background-color: #082848;
-  border-radius: #082848 2px solid;
 }
 
 .pDeclined__Header {
@@ -619,34 +639,67 @@ form h4 {
 /*Myorders SCSS*/
 /*_QuotMaker*/
 .progress {
-  height: 1.5rem;
+  height: .8rem;
   margin: 1rem 0;
 }
 
 .progress .progress-bar {
-  width: 25%;
   background-color: #53c7de;
 }
 
-.quotemaker {
+.progress #printSystem-progress {
+  width: 16.6%;
+}
+
+.progress #printSides-progress {
+  width: 33.3%;
+}
+
+.progress #printQuantity-progress {
+  width: 50%;
+}
+
+.progress #printFinish-progress {
+  width: 66.6%;
+}
+
+.progress #printPaper-progress {
+  width: 83.3%;
+}
+
+.progress #printDesign-progress {
+  width: 100%;
+}
+
+.QuoteMaker__Header {
+  margin: 30px 0;
+}
+
+.quotmaker {
+  background-color: #fafafa;
+}
+
+.step-button {
+  margin: 0 5px 30px;
+  width: 8rem;
+}
+
+.printSteps-container {
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
   margin: 20px;
-  padding: 2rem 0;
-  background-color: whitesmoke;
 }
 
-.quotemaker .quotmaker-sectionTitle {
+.printSteps-container .quotmaker-sectionTitle {
   text-align: center;
   margin-bottom: 2rem;
 }
 
-.quotemaker .quotemaker-form {
+.printSteps-container .quotemaker-form {
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
-  padding: 0 2rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -654,14 +707,14 @@ form h4 {
       flex-wrap: wrap;
 }
 
-.quotemaker .quotemaker-form .card:focus-within {
+.printSteps-container .quotemaker-form .card:focus-within {
   -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
           box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
   -webkit-transition: 0s ease-in-out;
   transition: 0s ease-in-out;
 }
 
-.quotemaker .quotemaker-form .card {
+.printSteps-container .quotemaker-form .card {
   width: 300px;
   height: 350px;
   border: 1px #ececec 236, 236, 236 solid;
@@ -669,13 +722,13 @@ form h4 {
   margin: 10px;
 }
 
-.quotemaker .quotemaker-form .card .card-img-top {
+.printSteps-container .quotemaker-form .card .card-img-top {
   height: 10rem;
   -o-object-fit: cover;
      object-fit: cover;
 }
 
-.quotemaker .quotemaker-form .card .card-body {
+.printSteps-container .quotemaker-form .card .card-body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -686,21 +739,39 @@ form h4 {
   border: none;
 }
 
-.quotemaker .quotemaker-form .card .card-body .quotemaker-cardtitle {
+.printSteps-container .quotemaker-form .card .card-body .quotemaker-cardtitle {
   margin: 1rem 0;
 }
 
-.quotemaker .quotemaker-form .card .card-body .card-text {
+.printSteps-container .quotemaker-form .card .card-body .card-text {
   background-color: transparent;
 }
 
-.quotemaker .quotmaker-nextButton {
+.printSteps-container .quotmaker-nextButton {
   text-align: center;
 }
 
-.quotemaker .quotmaker-nextButton button {
+.printSteps-container .quotmaker-nextButton button {
   width: 10rem;
   margin: .5rem;
+}
+
+.quotmaker-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 /*QuoteMaker SCSS*/

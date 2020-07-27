@@ -1,24 +1,49 @@
 .progress {
-    height: 1.5rem;
+    height: .8rem;
     margin: 1rem 0;
     .progress-bar {
-        width: 25%;
         background-color: $color-3;
+    }
+    #printSystem-progress {
+        width: 16.6%;
+    }
+    #printSides-progress {
+        width: 33.3%;
+    }
+    #printQuantity-progress {
+        width: 50%;
+    }
+    #printFinish-progress {
+        width: 66.6%;
+    }
+    #printPaper-progress {
+        width: 83.3%;
+    }
+    #printDesign-progress {
+        width: 100%;
     }
 }
 
-.quotemaker {
+.QuoteMaker__Header {
+    margin: 30px 0;
+}
+.quotmaker {
+    background-color: rgb(250, 250, 250);
+}
+.step-button {
+    margin: 0 5px 30px;
+    width: 8rem;
+}
+.printSteps-container {
     height: fit-content;
     margin: 20px;
-    padding: 2rem 0;
-    background-color: whitesmoke;
+    // background-color: whitesmoke;
     .quotmaker-sectionTitle {
         text-align: center;
         margin-bottom: 2rem;
     }
     .quotemaker-form {
         height: fit-content;
-        padding: 0 2rem;
         display: flex;
         flex-wrap: wrap;
         .card:focus-within {
@@ -59,3 +84,10 @@
     }
 }
 
+.quotmaker-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
