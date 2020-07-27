@@ -2,15 +2,18 @@
 .button-1{
     background-color: $color-2;
     border: $color-2;
-    border-radius: $mb;
+    border-radius: 1;
+    color: white;
+    height: 2.5rem;
     &:hover{
-        background-color: $color-2;
+        background-color: $color-5;
+        color: white;
     }
     &:active{
-        background-color: $color-2;
+        background-color: $color-5;
     }
     &:focus{
-        background-color: $color-2;
+        background-color: $color-5;
     }
 }
 
@@ -45,6 +48,24 @@
     }
     &:focus{
         background-color: $color-7;
+        color: $color-8;
+    }
+}
+.button-4 {
+    background-color: $color-6;
+    color: white;
+    border-radius: 1;
+    height: 2.5rem;
+    &:hover{
+        background-color: $color-5;
+        color: white;
+    }
+    &:active{
+        background-color: $color-5;
+        color: $color-8;
+    }
+    &:focus{
+        background-color: $color-5;
         color: $color-8;
     }
 }

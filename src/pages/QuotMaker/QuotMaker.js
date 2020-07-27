@@ -1,5 +1,6 @@
 import React from "react";
 import { Wizard, Steps, Step } from 'react-albus';
+import {Link} from "react-router-dom";
 
 
 import PrintSystem from './PrintSystem'
@@ -20,74 +21,81 @@ import PrintDesign from './PrintDesign'
 //PrintDesign 6
 
 
+
 const QuotMaker = (props) => {
     const match = props.match 
 
     console.log('props: ', props)
     return (
-      <div className="container">
+      <div className="container-fluid quotmaker">
           <Wizard>
             <Steps>
               <Step
                 id="PrintSystem"
                 render={({ next }) => (
-                  <div className="container">
+                  <div className="container quotmaker-container">
                     <PrintSystem />
-                    <button class="btn btn-info" onClick={next}>Siguiente</button>
+                    <button class="btn button-1 step-button" onClick={next}>Siguiente</button>
                   </div>
                 )}
               />
               <Step
                 id="PrintSides"
                 render={({ next, previous }) => (
-                  <div className="container">
+                  <div className="container quotmaker-container">
                     <PrintSides />
-
-                    <button class="btn btn-info" onClick={previous}>← Anterior</button>
-                    <button class="btn btn-info" onClick={next}>Siguiente →</button>
+                    <div>
+                      <button class="btn button-4 previous step-button" onClick={previous}>← Anterior</button>
+                      <button class="btn button-1 step-button" onClick={next}>Siguiente →</button>
+                    </div>
                   </div>
                 )}
               />
               <Step
                 id="PrintQuantity"
                 render={({ next, previous }) => (
-                  <div className="container">
+                  <div className="container quotmaker-container">
                     <PrintQuantity />
-
-                    <button class="btn btn-info" onClick={previous}>← Anterior</button>
-                    <button class="btn btn-info" onClick={next}>Siguiente →</button>
+                    <div>
+                      <button class="btn button-4 previous step-button" onClick={previous}>← Anterior</button>
+                      <button class="btn button-1 step-button" onClick={next}>Siguiente →</button>
+                    </div>
                   </div>
                 )}
               />
               <Step
                 id="PrintFinish"
                 render={({ next, previous }) => (
-                  <div className="container">
+                  <div className="container quotmaker-container">
                     <PrintFinish />
-
-                    <button class="btn btn-info" onClick={previous}>← Anterior</button>
-                    <button class="btn btn-info" onClick={next}>Siguiente →</button>
+                    <div>
+                      <button class="btn button-4 previous step-button" onClick={previous}>← Anterior</button>
+                      <button class="btn button-1 step-button" onClick={next}>Siguiente →</button>
+                    </div>
                   </div>
                 )}
               />
               <Step
                 id="PrintPaper"
                 render={({ next, previous }) => (
-                  <div className="container">
+                  <div className="container quotmaker-container">
                     <PrintPaper />
-
-                    <button class="btn btn-info" onClick={previous}>← Anterior</button>
-                    <button class="btn btn-info" onClick={next}>Siguiente →</button>
+                    <div>
+                      <button class="btn button-4 previous step-button" onClick={previous}>← Anterior</button>
+                      <button class="btn button-1 step-button" onClick={next}>Siguiente →</button>
+                    </div>
                   </div>
                 )}
               />
               <Step
                 id="PrintDesign"
                 render={({ previous }) => (
-                  <div className="container">
+                  <div className="container quotmaker-container">
                     <PrintDesign />
-
-                    <button class="btn btn-info"  onClick={previous}>Previous</button>
+                    <div>
+                      <button class="btn button-4 previous step-button"  onClick={previous}>← Anterior</button>
+                      <Link to={"/ReviewOrder"}><button type="button" class="btn step-button button-1">Finalizar</button></Link>
+                    </div>
                   </div>
                 )}
               />

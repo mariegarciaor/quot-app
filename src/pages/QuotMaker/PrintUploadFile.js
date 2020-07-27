@@ -3,11 +3,11 @@ import React from 'react';
 const PrintUploadFile = () => {
 
     return (
-        <div class="container">
-            <div className="QuoteStart__Header">
+        <div>
+            <div className="QuoteMaker__Header">
                 <h6 className="Header__Step"> Paso 8 </h6>
                 <h1 className="Header__Title">
-                Sube tus archivos
+                Sube tus archivos:
                 </h1>
                 <h5>Puedes subir tu diseño, logo,
                      ejemplos, y cualquier contenido que creas que podamos necesitar.</h5>

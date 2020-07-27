@@ -7,7 +7,7 @@ const QuoteStart = () => {
     return (
         <div className="container QuotemakerContainer">
 
-            <div className="QuoteStart__Header">
+            <div className="QuoteMaker__Header">
                 <h6 className="Header__Step">Bienvenido</h6>
                 <h1 className="Header__Title">
                     ¿Qué servicio te gustaría cotizar?  
