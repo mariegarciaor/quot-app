@@ -14,7 +14,7 @@ const WelcomeUser = () => {
                 <h3 className="title-1">¡Hola Usuario!</h3>
                 <p>¿Te gustaria cotizar un pedido?</p>
                 <hr />
-                <Link to="/QuotStart"><button className="btn buttom-cotizar">Cotiza ahora</button></Link>
+                <Link to="/QuotStart"><button className="btn button-1">Cotiza ahora</button></Link>
                 <br />
                 <Link to="/MyOrders"><p className="link-1" id="revisar-pedidos">Revisar mis pedidos</p></Link>
             </div>

@@ -3,10 +3,9 @@
 @import "./components/fonts";
 @import "./components/links";
 @import "./components/measurements";
-@import "./components/orderCard";
 @import "./components/titles";
 @import "./components/buttons";
-@import "./components/texts";
+
 
 /*cambio*/
 /*helpers*/
@@ -20,7 +19,6 @@
 /*Pages*/
 /*_Checkout*/
 @import "./pages/Checkout/Payment";
-@import "./pages/Checkout/PaymentDeclined";
 @import "./pages/Checkout/PaymentSuccess";
 @import "./pages/Checkout/ReviewOrder";
 
@@ -32,7 +30,7 @@
 
 /*_Orders*/
 @import "./pages/Orders/MyOrders";
-@import "./pages/Orders/OrderDetails";
+@import "./pages/Orders/orderCard";
 
 /*_QuotMaker*/
 @import "./pages/QuotMaker/QuotMaker";

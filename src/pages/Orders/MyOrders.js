@@ -1,5 +1,5 @@
 import React from "react";
-
+import Order from '../Orders/OrderCard'
 
 // const MyOrders = () => {
 //   return (
@@ -12,7 +12,10 @@ import React from "react";
 
 const MyOrders = () => {
   return (
-    <div>
+    <div className="container">
+      <Order />
+      <Order />
+      <Order />
       <div className="card" style={{ width: "18rem" }}>
         <img src="..." className="card-img-top" alt="..." />
         <div className="card-body">
