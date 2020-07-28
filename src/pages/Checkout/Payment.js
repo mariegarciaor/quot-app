@@ -1,5 +1,6 @@
 import React from 'react';
 import '../../styles/sass/main.scss';
+import {Link} from "react-router-dom";
 
 
 const Payment = () => {
@@ -74,43 +75,40 @@ const Payment = () => {
                     </div>
                 </div>
                 <div className="row">
-          <div className="col-md-6 mb-3">
-            <label htmlFor="cc-name">Nombre de propietario</label>
-            <input type="text" className="form-control" id="cc-name" placeholder="" required />
-            <small className="text-muted">Nombre completo como se muestra en la tarjeta</small>
-            <div className="invalid-feedback">
-              El nombre del propietario es requerido
-            </div>
-          </div>
+                    <div className="col-md-6 mb-3">
+                        <label htmlFor="cc-name">Nombre de propietario</label>
+                        <input type="text" className="form-control" id="cc-name" placeholder="" required />
+                        <small className="text-muted">Nombre completo como se muestra en la tarjeta</small>
+                        <div className="invalid-feedback">
+                        El nombre del propietario es requerido
+                        </div>
+                    </div>
 
-          <div className="col-md-6 mb-3">
-            <label htmlFor="cc-number">Numero de tarjeta</label>
-            <input type="text" className="form-control" id="cc-number" placeholder="" required />
-            <div className="invalid-feedback">
-              Numero de tarjeta es requerido
-            </div>
-          </div>
-          <div className="col-md-3 mb-3">
-            <label htmlFor="cc-expiracion">Expiracion</label>
-            <input type="text" className="form-control" id="cc-expiracion" placeholder="" required />
-            <div className="invalid-feedback">
-              Fecha de expiracion es requerida
-            </div>
-          </div>
-          <div className="col-md-3 mb-3">
-            <label htmlFor="cc-cvv">CVV</label>
-            <input type="text" className="form-control" id="cc-cvv" placeholder="" required/>
-            <div className="invalid-feedback">
-              Codigo de seguridad es requerido
-            </div>
-          </div>
-
-        </div>
-                <button type="submit" className="btn btn-primary">Comprar</button>
+                    <div className="col-md-6 mb-3">
+                        <label htmlFor="cc-number">Numero de tarjeta</label>
+                        <input type="text" className="form-control" id="cc-number" placeholder="" required />
+                        <div className="invalid-feedback">
+                        Numero de tarjeta es requerido
+                        </div>
+                    </div>
+                    <div className="col-md-3 mb-3">
+                        <label htmlFor="cc-expiracion">Expiracion</label>
+                        <input type="text" className="form-control" id="cc-expiracion" placeholder="" required />
+                        <div className="invalid-feedback">
+                        Fecha de expiracion es requerida
+                        </div>
+                    </div>
+                    <div className="col-md-3 mb-3">
+                        <label htmlFor="cc-cvv">CVV</label>
+                        <input type="text" className="form-control" id="cc-cvv" placeholder="" required/>
+                        <div className="invalid-feedback">
+                        Codigo de seguridad es requerido
+                        </div>
+                    </div>
+                </div>
+                <Link to={'/PaymentSuccess'}><button type="button" class="btn button-1">Comprar</button></Link>
             </form>
-
         </div>
-
     )
 }
 
