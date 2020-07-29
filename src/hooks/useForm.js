@@ -3,7 +3,7 @@ import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
 const useForm = (callback, validate) => {
-    const [values, setValues] = useState({ email:"", password:"" });
+    const [values, setValues] = useState({ name:"", lastname:"", email:"", password:"", address:"", address2:"", state:"", city:"", zipcode:"" });
     const [errors, setErrors] = useState({});
     const [isSubmitting, setIsSubmitting] = useState(false);
 
