@@ -1,0 +1,48 @@
+.register-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(https://masquespacio.com/wp-content/uploads/2016/02/1-masquespacio_branding_3.jpg);
+    // background-image: url(https://static.vecteezy.com/system/resources/previews/000/668/344/original/blue-minimal-geometric-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    .register-content {
+        background-color: #EEEEEF;
+        margin: 60px;
+        padding: 60px;
+        width: fit-content;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .register-logo {
+        width: 400px;
+        margin: 30px;
+    }
+    .register-titles {
+        margin: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .register-form {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        .form-row {
+            width: min-content;
+        }
+        .form-group {
+            margin: 10px;
+        }
+    }
+    .register-button {
+        margin: 20px;
+    }
+}
