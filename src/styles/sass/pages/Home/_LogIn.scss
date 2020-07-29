@@ -35,14 +35,13 @@ div.container {
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22)
 }
 
-form {
+.login-form {
     color: $color-2;
     display: flex;
     justify-content: center;
     align-items: flex-start;
     flex-direction: column;
     width: 40%;
-
     .form-control {
         width: 340px;
     }

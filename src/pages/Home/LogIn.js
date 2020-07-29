@@ -13,7 +13,7 @@ const LogIn = () => {
     return (
       <div className="login-cover">
         <section className="container login-description">
-          <form onSubmit={handleSubmit} noValidate>
+          <form className="login-form" onSubmit={handleSubmit} noValidate>
             <h4>Inicia sesión</h4>
             <div className="email form-group row">
               <div className="col-sm-10">
