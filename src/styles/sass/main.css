@@ -359,9 +359,20 @@ a.nav-link {
           flex-direction: column;
 }
 
-Link {
-  background-color: #082848;
-  border-radius: 7px;
+.detalles {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .card-title {
@@ -522,9 +533,93 @@ div.container {
       -ms-flex-align: center;
           align-items: center;
   background-image: url(https://masquespacio.com/wp-content/uploads/2016/02/1-masquespacio_branding_3.jpg);
+  background-image: url(https://static.vecteezy.com/system/resources/previews/000/668/344/original/blue-minimal-geometric-background.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+}
+
+.register-page .register-content {
+  background-color: #EEEEEF;
+  margin: 60px;
+  padding: 60px;
+  width: 60%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.register-page .register-logo {
+  width: 400px;
+  margin: 30px;
+}
+
+.register-page .register-titles {
+  margin: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.register-page .register-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.register-page .register-form .form-control {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+
+.register-page .register-form .form-row {
+  width: -webkit-min-content;
+  width: -moz-min-content;
+  width: min-content;
+}
+
+.register-page .register-form .form-group {
+  margin: 10px;
+}
+
+.register-page .register-button {
+  margin: 20px;
+}
+
+.wNew .Header__Title {
+  text-align: center;
+  font-size: 2em;
+  margin: 10px auto;
 }
 
 .register-page .register-content {
