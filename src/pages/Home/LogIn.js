@@ -52,8 +52,8 @@ const LogIn = () => {
                   Recordar cuenta
                 </label>
               </div>
-              <a className="olvidaste-contraseña" href="/ComingSoon">¿Olvidaste tu contraseña?</a>
             </div>
+            <a className="olvidaste-contraseña" href="/ComingSoon">¿Olvidaste tu contraseña?</a>
             
             <div className="inicio form-group row">
               <div className="col-sm-10">

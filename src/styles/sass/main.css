@@ -88,8 +88,24 @@
 /*Percentages*/
 .title-1 {
   font-size: 30px;
-  font-weight: bold;
-  color: #1F5B99;
+  font-weight: 600;
+  color: #0386a7;
+}
+
+.title-2 {
+  font-size: 20px;
+  color: #082848;
+}
+
+.title-3 {
+  font-size: 30px;
+  font-weight: 600;
+  color: #082848;
+}
+
+.title-4 {
+  font-size: 30px;
+  color: #009ba7;
 }
 
 /*Buttons*/
@@ -287,10 +303,16 @@ a.nav-link {
 /*Pages*/
 /*_Checkout*/
 /*Payment SCSS*/
-.checkout {
-  background-color: #53c7de;
-  color: #fff;
-  border-radius: 7px;
+.payment-container .payment-form {
+  padding: 30px;
+}
+
+.payment-container .payment-form .row {
+  margin-top: 20px;
+}
+
+.payment-container .checkout {
+  margin-top: 30px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -304,11 +326,10 @@ a.nav-link {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  font-family: "Sarabun";
 }
 
-.container-fluid {
-  font-family: "Sarabun";
+.payment-container .checkout h2 {
+  text-align: center;
 }
 
 .form-control {
@@ -320,11 +341,25 @@ a.nav-link {
   border: #53c7de 2px solid;
 }
 
-.header {
-  font-family: "Sarabun";
-  background-color: #53c7de;
-  color: #fff;
-  border-radius: 7px;
+.payment-button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.payment-button button {
+  width: 150px;
+  margin: 20px;
+}
+
+.paymentsuccess {
+  margin: 30px 0;
+}
+
+.paymentsuccess-titles {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -340,8 +375,11 @@ a.nav-link {
           flex-direction: column;
 }
 
+.paymentsuccess-titles h2 {
+  text-align: center;
+}
+
 .body {
-  font-family: "Sarabun";
   color: #666;
   border-radius: 7px;
   display: -webkit-box;
@@ -357,6 +395,11 @@ a.nav-link {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+}
+
+.body .paymentsucess-img {
+  width: 200px;
+  margin: 15px 0;
 }
 
 .detalles {
@@ -375,29 +418,59 @@ a.nav-link {
           flex-direction: column;
 }
 
+.paymentsuccess-button {
+  margin: 20px 0;
+}
+
+.paymentsuccess-button button {
+  width: 150px;
+}
+
+.revieworder {
+  margin-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.revieworder-img {
+  width: 300px;
+  border-radius: 50%;
+  margin: 20px;
+}
+
+.card {
+  border: none;
+}
+
 .card-title {
+  text-align: center;
   color: #082848;
-  font-weight: 600;
 }
 
 .list-group1 {
-  border: #666 1px solid;
-  border-top: #53c7de 10px solid;
-  border-left: #666 1px solid;
+  border: #dbdbdb 1px solid;
 }
 
 .list-group {
-  border: #666 1px solid;
-  border-left: #666 1px solid;
+  border: #dbdbdb 1px solid;
 }
 
-.list-group-item {
-  border: #666 1px solid;
-  border-top: #53c7de 4px solid;
-  border-left: #666 1px solid;
+li.list-group-item {
+  border: #dbdbdb 1px solid;
 }
 
-.button {
+.order-button {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -407,7 +480,8 @@ a.nav-link {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  border: #fff 1px solid;
+  margin-top: 30px;
+  margin-bottom: 50px;
 }
 
 /*_Home*/
@@ -443,7 +517,7 @@ div.container {
 .login-description {
   background-color: rgba(255, 255, 255, 0.986);
   border-radius: 1rem;
-  padding: 40px;
+  padding: 60px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -474,18 +548,19 @@ div.container {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  width: 40%;
 }
 
 .login-form .form-control {
-  width: 340px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
 }
 
 .login-form .form-check-input {
@@ -518,187 +593,23 @@ div.container {
   font-size: 2rem;
 }
 
-.register-page {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  background-image: url(https://masquespacio.com/wp-content/uploads/2016/02/1-masquespacio_branding_3.jpg);
-  background-image: url(https://static.vecteezy.com/system/resources/previews/000/668/344/original/blue-minimal-geometric-background.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
-.register-page .register-content {
-  background-color: #EEEEEF;
-  margin: 60px;
-  padding: 60px;
-  width: 60%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-}
-
-.register-page .register-logo {
-  width: 400px;
-  margin: 30px;
-}
-
-.register-page .register-titles {
-  margin: 20px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.register-page .register-form {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.register-page .register-form .form-control {
-  width: -webkit-max-content;
-  width: -moz-max-content;
-  width: max-content;
-}
-
-.register-page .register-form .form-row {
-  width: -webkit-min-content;
-  width: -moz-min-content;
-  width: min-content;
-}
-
-.register-page .register-form .form-group {
-  margin: 10px;
-}
-
-.register-page .register-button {
-  margin: 20px;
-}
-
-.wNew .Header__Title {
+.register-titles {
+  margin: 40px;
   text-align: center;
-  font-size: 2em;
-  margin: 10px auto;
 }
 
-.register-page .register-content {
-  background-color: #EEEEEF;
-  margin: 60px;
-  padding: 60px;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
+.register-button {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-}
-
-.register-page .register-logo {
-  width: 400px;
-  margin: 30px;
-}
-
-.register-page .register-titles {
-  margin: 20px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  margin: 15px;
 }
 
-.register-page .register-form {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.register-page .register-form .form-control {
-  width: -webkit-max-content;
-  width: -moz-max-content;
-  width: max-content;
-}
-
-.register-page .register-form .form-row {
-  width: -webkit-min-content;
-  width: -moz-min-content;
-  width: min-content;
-}
-
-.register-page .register-form .form-group {
-  margin: 10px;
-}
-
-.register-page .register-button {
-  margin: 20px;
+.register-button button {
+  width: 150px;
 }
 
 .welcome-container.welcomenew {
@@ -707,6 +618,7 @@ div.container {
 
 .Welcomenew-buttons button {
   margin: 10px;
+  width: 150px;
 }
 
 .welcome-container {
@@ -760,10 +672,41 @@ div.container {
 
 /*_Orders*/
 /*Myorders SCSS*/
+.myorders {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.myorders-button {
+  margin: 30px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.order-card-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 /*_QuotMaker*/
 .progress {
   height: .8rem;
-  margin: 1rem 0;
+  margin: 1rem;
 }
 
 .progress .progress-bar {
@@ -880,6 +823,12 @@ div.container {
       -ms-flex-direction: column;
           flex-direction: column;
   border: none;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .printSteps-container .quotemaker-form .card .card-body .quotemaker-cardtitle {
@@ -888,6 +837,7 @@ div.container {
 
 .printSteps-container .quotemaker-form .card .card-body .card-text {
   background-color: transparent;
+  text-align: center;
 }
 
 .printSteps-container .quotmaker-nextButton {

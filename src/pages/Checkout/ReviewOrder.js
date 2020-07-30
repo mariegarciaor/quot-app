@@ -6,9 +6,14 @@ import Order from '../Orders/OrderCard'
 const ReviewOrder = () => {
 
     return (
-        <div className="container">
-           <Order />
-            <div className="button">
+        <div className="container-fluid">
+            <div className="container revieworder">
+                <div className="card-body">
+                    <h5 className="card-title title-1">Revisa tu pedido</h5>
+                </div>
+                <Order />                
+            </div>
+            <div className="order-button">
                 <Link to={'/payment'}><button type="button" class="btn button-1">Continuar con la compra</button></Link>
             </div>
         </div>

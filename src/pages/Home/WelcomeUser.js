@@ -11,7 +11,7 @@ const WelcomeUser = () => {
             </div> */}
             <div className="welcome-content col-xl-4 .col-lg-4 col-sm-8">
                 <img id="welcomeuser-img" src="https://diyshutters.co/wp-content/uploads/2019/06/r0bsDqL.png" alt="..." ></img>
-                <h3 className="title-1">¡Hola Usuario!</h3>
+                <h3 className="title-3">¡Hola Usuario!</h3>
                 <p>¿Te gustaria cotizar un pedido?</p>
                 <hr />
                 <Link to="/QuotStart"><button className="btn button-1">Cotiza ahora</button></Link>

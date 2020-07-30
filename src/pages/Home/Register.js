@@ -11,104 +11,64 @@ const Register = () => {
     }
 
     return (
-        <div class="container-fluid register-page">
-            <div className="register-content">
-                <div className="register-titles">
-                    <h1>Welcome</h1>
-                    <h3>Create your account!</h3>
-                    <img className="register-logo" src="https://images.squarespace-cdn.com/content/v1/598eaf83d7bdce2890ccead1/1538394638797-OQHCRKZDNE3DAQK9Q090/ke17ZwdGBToddI8pDm48kPqQfq0L3n3wpHIsRapTfg8UqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKcqDw7KJ9JLVnFyPtQWXPW_fGUEh2BflkccjBxWRTaY_RcTR0hSuOiDKazX4Abyxu7/business-card-gif_2.gif?format=1500w" alt="register"></img>
-                </div>
-                <form  className="register-form">
-                    <div class="form-row">
-                        <div class="form-group col-md-6 col-sm-12">
-                        <label for="inputEmail4">Name</label>
-                        <input
-                            name="name"
-                            type="text"
-                            class="form-control"
-                            id="inputEmail4"
-                            value={values.name}
-                            onChange={handleChange} />
-                        </div>
-                        <div class="form-group col-md-6 col-sm-12">
-                        <label for="inputPassword4">Last Name</label>
-                        <input
-                            name="lastname"
-                            type="password"
-                            class="form-control"
-                            id="inputPassword4" 
-                            value={values.lastname}
-                            onChange={handleChange} />
-                        </div>
-                    </div>
-                    <div class="form-row">
-                        <div class="form-group col-md-6 col-sm-12">
-                        <label for="inputEmail4">Email</label>
-                        <input
-                            name="email"
-                            type="email"
-                            class="form-control"
-                            id="inputEmail4"
-                            value={values.email}
-                            onChange={handleChange} />
-                        </div>
-                        <div class="form-group col-md-6 col-sm-12">
-                        <label for="inputPassword4">Password</label>
-                        <input
-                            name="password"
-                            type="password"
-                            class="form-control"
-                            id="inputPassword4"
-                            value={values.password}
-                            onChange={handleChange} />
-                        </div>
-                    </div>
-                    <div class="form-row">
-                        <div class="form-group col-md-6 col-sm-12">
-                            <label for="inputAddress">Address</label>
-                            <input 
-                                name="address"
-                                type="text"
-                                class="form-control"
-                                id="inputAddress"
-                                placeholder="1234 Main St"
-                                value={values.address}
-                                onChange={handleChange} />
-                        </div>
-                        <div class="form-group col-md-6 col-sm-12">
-                            <label for="inputAddress2">Address 2</label>
-                            <input
-                                name="address2"
-                                type="text"
-                                class="form-control"
-                                id="inputAddress2"
-                                placeholder="Apartment, studio, or floor"
-                                value={values.address2}
-                                onChange={handleChange} />
-                        </div>
-                    </div>
-                    <div class="form-row">
-                        <div class="form-group col-md-6 col-sm-12">
-                                <label for="inputState">State</label>
-                                <select id="inputState" class="form-control">
-                                    <option selected>Choose...</option>
-                                    <option>Jalisco</option>
-                                    <option>Ciudad de México</option>
-                                    <option>Monterrey</option>
-                                </select>
-                        </div>
-                        <div class="form-group col-md-6">
-                            <label for="inputCity">City</label>
-                            <input type="text" class="form-control" id="inputCity"/>
-                        </div>
-                        <div class="form-group col-md-6">
-                            <label for="inputZip">Zip Code</label>
-                            <input type="text" class="form-control" id="inputZip"/>
-                        </div>
-                    </div>           
-                    <Link to={'/QuotStart'}><button type="submit" className="btn button-1 register-button">Register</button></Link>
-                </form>
+        <div className="container payment-container">
+            <div className="register-titles" >
+                <h1 className="title-3">Crea tu cuenta</h1>
+                <h2 className="title-2">¡Cotiza tus servicios de impresión en minutos!</h2>
             </div>
+
+            <form className="payment-form">
+                <div className="form-row">
+                    <div className="form-group col-md-6">
+                        <label htmlFor="inputNombre">Nombre</label>
+                        <input type="text" className="form-control" id="inputNombre" />
+                    </div>
+
+                    <div className="form-group col-md-6">
+                        <label htmlFor="inputApellidos">Apellidos</label>
+                        <input type="text" className="form-control" id="inputApellidos" />
+                    </div>
+                </div>
+                <div className="form-row">
+                    <div className="form-group col-md-6">
+                        <label htmlFor="inputNombre">Correo electrónico</label>
+                        <input type="text" className="form-control" id="inputNombre" />
+                    </div>
+
+                    <div className="form-group col-md-6">
+                        <label htmlFor="inputApellidos">Contraseña</label>
+                        <input type="text" className="form-control" id="inputApellidos" />
+                    </div>
+                </div>
+
+                <div className="form-group">
+                    <label htmlFor="inputDireccion">Direccion</label>
+                    <input type="text" className="form-control" id="inputDireccion" placeholder=" Av.Chapultepec 1234" />
+                </div>
+
+                <div className="form-row">
+                    <div className="form-group col-md-6">
+                        <label htmlFor="inputCiudad">Ciudad</label>
+                        <input type="text" className="form-control" id="inputCiudad" />
+                    </div>
+
+                    <div className="form-group col-md-4">
+                        <label htmlFor="inputEstado">Estado</label>
+                        <select id="inputEstado" className="form-control">
+                            <option  defaultValue>Jalisco...</option>
+                            <option>...</option>
+                        </select>
+                    </div>
+
+                    <div className="form-group col-md-2">
+                        <label htmlFor="inputCp">Codigo Postal</label>
+                        <input type="text" className="form-control" id="inputCp" />
+                    </div>
+                </div>
+                <div className="register-button">
+                    <Link to={'/WelcomeUser'}><button type="button" class="btn button-1 register-button">Registrate</button></Link>
+                </div>                
+            </form>
         </div>
     )
 }

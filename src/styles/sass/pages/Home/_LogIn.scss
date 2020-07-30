@@ -20,7 +20,7 @@ div.container {
 .login-description {
     background-color: rgba(255, 255, 255, 0.986);
     border-radius: 1rem;
-    padding: 40px;
+    padding: 60px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -34,11 +34,10 @@ div.container {
     color: $color-2;
     display: flex;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
     flex-direction: column;
-    width: 40%;
     .form-control {
-        width: 340px;
+        width: fit-content;
     }
     .form-check-input {
         margin-left: 0;

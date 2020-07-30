@@ -3,10 +3,10 @@ import React from 'react';
 const Order = () => {
     return (
         <div className="container-fluid">
-            <div className="card">
-                <img className="card-img-top" src="..." alt="Card cap"/>
-                <div className="card-body">
-                    <h5 className="card-title">Revisa tu cotizacion</h5>
+            <div className="card order-card">
+                <div className="card-body order-card-info">
+                    <h5 className="card-title title-2">Pedido #</h5>
+                    <img src="https://cms.cloudinary.vpsvc.com//image/fetch/q_auto:eco,w_700,f_auto,dpr_auto/https://s3-eu-west-1.amazonaws.com/sitecore-media-bucket/prod%2Fen-GB%2F%7B7073E395-6FEC-447B-B5EA-CCE73B79F22B%7D" class="card-img-top revieworder-img" alt="..."/>
                 </div>
                 <ul className="list-group1 list-group-flush">
                     <li className="list-group-item">1000 tarjetas</li>
