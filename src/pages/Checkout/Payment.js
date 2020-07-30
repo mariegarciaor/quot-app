@@ -5,13 +5,13 @@ import {Link} from "react-router-dom";
 
 const Payment = () => {
     return (
-        <div className="container">
+        <div className="container payment-container">
             <div className="checkout" >
-                <h1>CHECK OUT</h1>
-                <h2>Selecciona un metodo de pago</h2>
+                <h1 className="title-3">Check out</h1>
+                <h2 className="title-2">Selecciona un metodo de pago</h2>
             </div>
 
-            <form>
+            <form className="payment-form">
                 <div className="form-row">
                     <div className="form-group col-md-6">
                         <label htmlFor="inputNombre">Nombre</label>
@@ -106,11 +106,13 @@ const Payment = () => {
                         </div>
                     </div>
                 </div>
-                <Link to={'/PaymentSuccess'}><button type="button" class="btn button-1">Comprar</button></Link>
+                <div className="payment-button">
+                    <Link to={'/PaymentSuccess'}><button type="button" class="btn button-1">Comprar</button></Link>
+                </div>
             </form>
         </div>
     )
 }
-
+ 
 
 export default Payment;

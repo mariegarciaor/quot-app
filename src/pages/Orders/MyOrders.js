@@ -1,71 +1,18 @@
 import React from "react";
 import Order from '../Orders/OrderCard'
-
-// const MyOrders = () => {
-//   return (
-//     <div>
-//       <orderCard title="Order1" content="" />
-//       <orderCard title="Order2" content="" image={myImage} />
-//     </div>
-//   );
-// };
+import {Link} from 'react-router-dom'
 
 const MyOrders = () => {
   return (
-    <div className="container">
-      <Order />
-      <Order />
-      <Order />
-      <div className="card" style={{ width: "18rem" }}>
-        <img src="..." className="card-img-top" alt="..." />
-        <div className="card-body">
-          <h5 className="card-title">Producto seleccionado</h5>
-        </div>
-        <ul className="list-group list-group-flush">
-          <li className="list-group-item">Precio total (con I.V.A)</li>
-          <li className="list-group-item">$300</li>
-          <li className="list-group-item">Status</li>
-          <li className="list-group-item">En producción</li>
-        </ul>
-        <div className="card-body">
-          <a href="#" className="Ver detalle">
-            Ver detalle
-          </a>
-        </div>
+    <div className="container myorders" >
+      <div className="card-body">
+          <h5 className="card-title title-1">Revisa tus ordenes</h5>
       </div>
-      <div className="card" style={{ width: "18rem" }}>
-        <img src="..." className="card-img-top" alt="..." />
-        <div className="card-body">
-          <h5 className="card-title">Producto seleccionado</h5>
-        </div>
-        <ul className="list-group list-group-flush">
-          <li className="list-group-item">Precio total (con I.V.A)</li>
-          <li className="list-group-item">$300</li>
-          <li className="list-group-item">Status</li>
-          <li className="list-group-item">En producción</li>
-        </ul>
-        <div className="card-body">
-          <a href="#" className="Ver detalle">
-            Ver detalle
-          </a>
-        </div>
-      </div>
-      <div className="card" style={{ width: "18rem" }}>
-        <img src="..." className="card-img-top" alt="..." />
-        <div className="card-body">
-          <h5 className="card-title">Producto seleccionado</h5>
-        </div>
-        <ul className="list-group list-group-flush">
-          <li className="list-group-item">Precio total (con I.V.A)</li>
-          <li className="list-group-item">$300</li>
-          <li className="list-group-item">Status</li>
-          <li className="list-group-item">En producción</li>
-        </ul>
-        <div className="card-body">
-          <a href="#" className="Ver detalle">
-            Ver detalle
-          </a>
-        </div>
+      <Order />
+      <Order />
+      <Order />
+      <div className="myorders-button">
+          <Link to={'/QuotStart'}><button type="button" class="btn button-1">Cotiza otro producto</button></Link>
       </div>
     </div>
   );
