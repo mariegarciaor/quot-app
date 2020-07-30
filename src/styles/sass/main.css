@@ -177,7 +177,6 @@
   color: #000;
 }
 
-/*Párrafos*/
 /*cambio*/
 /*helpers*/
 /*layout*/
@@ -305,6 +304,7 @@ a.nav-link {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  font-family: "Sarabun";
 }
 
 .container-fluid {
@@ -318,51 +318,6 @@ a.nav-link {
 
 .form-check-input {
   border: #53c7de 2px solid;
-}
-
-.pDeclined__Header {
-  background-color: #53c7de;
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
-  padding: 20px;
-}
-
-.pDeclined__Header h3 {
-  font-size: 14px;
-}
-
-.pDeclined__Body {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  padding: 20px;
-}
-
-.pDeclined .Body__Image {
-  width: 80%;
-  margin: auto;
-}
-
-.pDeclined .Body__Tryagain {
-  background-color: #082848;
-  color: white;
-  padding: 10px;
-  margin: 15px auto 10px;
-  width: 80%;
-  border-radius: 10px;
-}
-
-.pDeclined .Body__Oxxopay {
-  color: #53c7de;
-  text-decoration: underline;
-  text-align: center;
 }
 
 .header {
@@ -404,9 +359,20 @@ a.nav-link {
           flex-direction: column;
 }
 
-Link {
-  background-color: #082848;
-  border-radius: 7px;
+.detalles {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .card-title {
@@ -500,7 +466,7 @@ div.container {
           box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
 
-form {
+.login-form {
   color: #082848;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -518,38 +484,136 @@ form {
   width: 40%;
 }
 
-form .form-control {
+.login-form .form-control {
   width: 340px;
 }
 
-form .form-check-input {
+.login-form .form-check-input {
   margin-left: 0;
 }
 
-form .form-check-label {
+.login-form .form-check-label {
   margin-left: 1.5rem;
 }
 
-form .olvidaste-contraseña {
+.login-form .olvidaste-contraseña {
   margin-left: 1rem;
 }
 
-form .btn-primary {
+.login-form .btn-primary {
   width: 150px;
   margin-top: 1rem;
   background-color: #082848;
   border: none;
 }
 
-form .btn-primary a {
+.login-form .btn-primary a {
   color: #fff;
 }
 
-form h4 {
+.login-form h4 {
   margin-bottom: 1.5rem;
   color: #0386a7;
   font-weight: 600;
   font-size: 2rem;
+}
+
+.register-page {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-image: url(https://masquespacio.com/wp-content/uploads/2016/02/1-masquespacio_branding_3.jpg);
+  background-image: url(https://static.vecteezy.com/system/resources/previews/000/668/344/original/blue-minimal-geometric-background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.register-page .register-content {
+  background-color: #EEEEEF;
+  margin: 60px;
+  padding: 60px;
+  width: 60%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.register-page .register-logo {
+  width: 400px;
+  margin: 30px;
+}
+
+.register-page .register-titles {
+  margin: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.register-page .register-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.register-page .register-form .form-control {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+
+.register-page .register-form .form-row {
+  width: -webkit-min-content;
+  width: -moz-min-content;
+  width: min-content;
+}
+
+.register-page .register-form .form-group {
+  margin: 10px;
+}
+
+.register-page .register-button {
+  margin: 20px;
 }
 
 .wNew .Header__Title {
