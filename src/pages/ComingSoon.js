@@ -10,7 +10,7 @@ const ComingSoon = () => {
           <h5>Esta página estará disponible próximamente ;)</h5>
         </div>
         <figure>
-          <img id="comingsoon-cover" src="https://ojalaleguste.files.wordpress.com/2016/10/img_0826.gif"></img>
+          <img id="comingsoon-cover" src="https://ojalaleguste.files.wordpress.com/2016/10/img_0826.gif" alt="..." ></img>
         </figure>
       </div>
     </div>

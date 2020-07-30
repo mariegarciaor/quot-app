@@ -16,7 +16,7 @@ const PaymentSuccess = () => {
                 <p>status</p>
             </div>
             <div>
-                <Link to={'/MyOrders'}><button type="button" class="btn button-1">Ver detalle</button></Link>
+                <Link className="detalles" to={'/MyOrders'}><button type="button" class="btn button-1">Ver detalle</button></Link>
             </div>
         </div>
     )
