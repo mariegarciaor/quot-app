@@ -1,4 +1,7 @@
 import React from 'react';
+import design from '../../styles/images/design.jpg'
+import designIdea from '../../styles/images/design-idea.jpg'
+import noDesign from '../../styles/images/no-design-2.jpg'
 
 const PrintDesign = () => {
 
@@ -21,7 +24,7 @@ const PrintDesign = () => {
                 <div class="row quotemaker-form">
                     <div class="col">
                         <div class="quotemarkerCard card">
-                            <img src="https://i.pinimg.com/564x/75/43/71/7543713598978ad54d0d2402114c9705.jpg" class="card-img-top" alt="..."/>
+                            <img src={design} class="card-img-top" alt="..."/>
                             <div class="card-body">
                                 <h5 class="card-title quotemaker-cardtitle">Diseño profesional</h5>
                                 <p class="card-text">Selecciona esta opción si tienes tu diseño en archivos: .ai o .pdf de alta calidad..</p>
@@ -31,7 +34,7 @@ const PrintDesign = () => {
                     </div>
                     <div class="col">
                         <div class="card">
-                            <img src="https://i.pinimg.com/564x/2a/32/ff/2a32ffa4caa8e04dbd0680022720245d.jpg" class="card-img-top" alt="..."/>
+                            <img src={designIdea} class="card-img-top" alt="..."/>
                             <div class="card-body">
                                 <h5 class="card-title quotemaker-cardtitle">Idea de diseño</h5>
                                 <p class="card-text">Selecciona esta opción si tus archivos son: .ppt, .docx, .jpeg y .png</p>
@@ -41,7 +44,7 @@ const PrintDesign = () => {
                     </div>
                     <div class="col">
                         <div class="card">
-                            <img src="https://i.pinimg.com/564x/0b/20/3d/0b203da05883d6989c2583484bf84b67.jpg" class="card-img-top" alt="..."/>
+                            <img src={noDesign} class="card-img-top" alt="..."/>
                             <div class="card-body">
                                 <h5 class="card-title quotemaker-cardtitle">No tengo diseño</h5>
                                 <p class="card-text">¡No te preocupes! Seleccion esta opción y nuestro equipo experto creará un diseño increíble para ti ;)</p>
