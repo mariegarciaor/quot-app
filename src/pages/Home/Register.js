@@ -15,12 +15,12 @@ const Register = () => {
             <div className="register-content">
                 <div className="register-titles">
                     <h1>Welcome</h1>
-                    <h3>Create your account for easier access!</h3>
+                    <h3>Create your account!</h3>
                     <img className="register-logo" src="https://images.squarespace-cdn.com/content/v1/598eaf83d7bdce2890ccead1/1538394638797-OQHCRKZDNE3DAQK9Q090/ke17ZwdGBToddI8pDm48kPqQfq0L3n3wpHIsRapTfg8UqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKcqDw7KJ9JLVnFyPtQWXPW_fGUEh2BflkccjBxWRTaY_RcTR0hSuOiDKazX4Abyxu7/business-card-gif_2.gif?format=1500w" alt="register"></img>
                 </div>
                 <form  className="register-form">
                     <div class="form-row">
-                        <div class="form-group col-md-6">
+                        <div class="form-group col-md-6 col-sm-12">
                         <label for="inputEmail4">Name</label>
                         <input
                             name="name"
@@ -30,7 +30,7 @@ const Register = () => {
                             value={values.name}
                             onChange={handleChange} />
                         </div>
-                        <div class="form-group col-md-6">
+                        <div class="form-group col-md-6 col-sm-12">
                         <label for="inputPassword4">Last Name</label>
                         <input
                             name="lastname"
@@ -42,7 +42,7 @@ const Register = () => {
                         </div>
                     </div>
                     <div class="form-row">
-                        <div class="form-group col-md-6">
+                        <div class="form-group col-md-6 col-sm-12">
                         <label for="inputEmail4">Email</label>
                         <input
                             name="email"
@@ -52,7 +52,7 @@ const Register = () => {
                             value={values.email}
                             onChange={handleChange} />
                         </div>
-                        <div class="form-group col-md-6">
+                        <div class="form-group col-md-6 col-sm-12">
                         <label for="inputPassword4">Password</label>
                         <input
                             name="password"
@@ -64,7 +64,7 @@ const Register = () => {
                         </div>
                     </div>
                     <div class="form-row">
-                        <div class="form-group col-md-6">
+                        <div class="form-group col-md-6 col-sm-12">
                             <label for="inputAddress">Address</label>
                             <input 
                                 name="address"
@@ -75,7 +75,7 @@ const Register = () => {
                                 value={values.address}
                                 onChange={handleChange} />
                         </div>
-                        <div class="form-group col-md-6">
+                        <div class="form-group col-md-6 col-sm-12">
                             <label for="inputAddress2">Address 2</label>
                             <input
                                 name="address2"
@@ -88,11 +88,13 @@ const Register = () => {
                         </div>
                     </div>
                     <div class="form-row">
-                        <div class="form-group col-md-6">
+                        <div class="form-group col-md-6 col-sm-12">
                                 <label for="inputState">State</label>
                                 <select id="inputState" class="form-control">
                                     <option selected>Choose...</option>
-                                    <option>...</option>
+                                    <option>Jalisco</option>
+                                    <option>Ciudad de México</option>
+                                    <option>Monterrey</option>
                                 </select>
                             </div>
                         <div class="form-group col-md-6">
@@ -112,4 +114,3 @@ const Register = () => {
 }
            
 export default Register;
-

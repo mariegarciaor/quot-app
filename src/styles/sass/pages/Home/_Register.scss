@@ -28,13 +28,16 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-    }
+    } 
     .register-form {
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
+        .form-control {
+            width: max-content;
+        }
         .form-row {
             width: min-content;
         }
