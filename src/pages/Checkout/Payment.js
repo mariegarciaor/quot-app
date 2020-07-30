@@ -5,7 +5,7 @@ import {Link} from "react-router-dom";
 
 const Payment = () => {
     return (
-        <div className="container-fluid">
+        <div className="container">
             <div className="checkout" >
                 <h1>CHECK OUT</h1>
                 <h2>Selecciona un metodo de pago</h2>

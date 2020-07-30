@@ -622,32 +622,91 @@ div.container {
   margin: 10px auto;
 }
 
-.wNew .Header__Image {
-  width: 80%;
-  margin: 10px auto;
+.register-page .register-content {
+  background-color: #EEEEEF;
+  margin: 60px;
+  padding: 60px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
-.wNew .Header__Text {
-  text-align: center;
-  width: 60%;
-  margin: 5px auto 15px;
-  font-weight: 200;
+.register-page .register-logo {
+  width: 400px;
+  margin: 30px;
 }
 
-.wNew__Bottom {
-  background-color: #53c7de;
-  border-top-right-radius: 15px;
-  border-top-left-radius: 15px;
-  padding: 20px;
+.register-page .register-titles {
+  margin: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
-.wNew .Bottom__Register {
-  background-color: #082848;
-  color: white;
+.register-page .register-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
-.wNew .Bottom__Invited {
-  text-decoration: underline;
+.register-page .register-form .form-control {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+
+.register-page .register-form .form-row {
+  width: -webkit-min-content;
+  width: -moz-min-content;
+  width: min-content;
+}
+
+.register-page .register-form .form-group {
+  margin: 10px;
+}
+
+.register-page .register-button {
+  margin: 20px;
+}
+
+.welcome-container.welcomenew {
+  background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/1400_opt_1/cea20527601265.56456ee4b736b.png);
+}
+
+.Welcomenew-buttons button {
+  margin: 10px;
 }
 
 .welcome-container {
@@ -664,7 +723,7 @@ div.container {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/1400_opt_1/cea20527601265.56456ee4b736b.png);
+  background-image: url(https://images.pexels.com/photos/3759098/pexels-photo-3759098.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
   background-size: cover;
   background-repeat: no-repeat;
 }
