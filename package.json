@@ -15,7 +15,7 @@
     "react-feather": "^2.0.8",
     "react-password-mask": "^3.3.1",
     "react-router-dom": "^5.1.2",
-    "react-scripts": "3.4.0",
+    "react-scripts": "5.0.1",
     "react-svg": "^11.0.17"
   },
   "scripts": {
